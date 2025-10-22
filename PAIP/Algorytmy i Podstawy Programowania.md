@@ -20,15 +20,15 @@
 
 ### 🧮 Sposoby przedstawiania algorytmów
 
-| Sposób               | Opis                                                           |
-| -------------------- | -------------------------------------------------------------- |
-| **[[Opis słowny]]**  | Po prostu opisujemy, co ma się dziać krok po kroku.            |
-| **Lista kroków**     | Numerujemy polecenia: Krok 1 – wczytaj x, Krok 2 – policz…     |
-| **Schemat blokowy**  | Graficzne przedstawienie algorytmu (start, decyzje, operacje). |
-| **Drzewo algorytmu** | Pokazuje możliwe ścieżki wykonania kroków.                     |
-| **Drzewo wyrażeń**   | Dla działań matematycznych, np. (3+2)-(4-2).                   |
-| **Pseudokod**        | Zapis w stylu programowania, ale bez konkretnego języka.       |
-| **Program**          | Gotowy kod w języku programowania (np. C++).                   |
+| Sposób                  | Opis                                                           |
+| ----------------------- | -------------------------------------------------------------- |
+| **[[Opis słowny]]**     | Po prostu opisujemy, co ma się dziać krok po kroku.            |
+| **[[Lista kroków]]**    | Numerujemy polecenia: Krok 1 – wczytaj x, Krok 2 – policz…     |
+| **[[Schemat blokowy]]** | Graficzne przedstawienie algorytmu (start, decyzje, operacje). |
+| **Drzewo algorytmu**    | Pokazuje możliwe ścieżki wykonania kroków.                     |
+| **Drzewo wyrażeń**      | Dla działań matematycznych, np. (3+2)-(4-2).                   |
+| **Pseudokod**           | Zapis w stylu programowania, ale bez konkretnego języka.       |
+| **Program**             | Gotowy kod w języku programowania (np. C++).                   |
 
 **Przykład pseudokodu:**
 ```

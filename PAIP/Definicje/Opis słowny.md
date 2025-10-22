@@ -8,4 +8,4 @@ Przykład:
 > 3. Dodawaj kolejne liczby do sumy  
 > 4. Wypisz sumę  
 
-![Opis słowny](https://www.zpe.gov.pl/a/przeczytaj/DrYJY1MWa)
+![Opis słowny](https://static.zpe.gov.pl/portal/f/res-minimized/R1doNdda8bkZ2/1615377563/1GEnWk0A7vTN8bfUvIN4MHhnpqnpfK6p.png)
