@@ -27,8 +27,8 @@
 | **[[Schemat blokowy]]**  | Graficzne przedstawienie algorytmu (start, decyzje, operacje). |
 | **[[Drzewo algorytmu]]** | Pokazuje możliwe ścieżki wykonania kroków.                     |
 | **[[Drzewo wyrażeń]]**   | Dla działań matematycznych, np. (3+2)-(4-2).                   |
-| **Pseudokod**            | Zapis w stylu programowania, ale bez konkretnego języka.       |
-| **Program**              | Gotowy kod w języku programowania (np. C++).                   |
+| **[[Pseudokod]]**        | Zapis w stylu programowania, ale bez konkretnego języka.       |
+| **[[Program]]**          | Gotowy kod w języku programowania (np. C++).                   |
 
 **Przykład pseudokodu:**
 ```

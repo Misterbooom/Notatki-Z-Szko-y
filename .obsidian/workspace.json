@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "PAIP/Algorytmy i Podstawy Programowania.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -182,8 +182,10 @@
   },
   "active": "025a8f93d6eacd9a",
   "lastOpenFiles": [
-    "PAIP/Definicje/Drzewo wyrażeń.md",
+    "PAIP/Definicje/Program.md",
     "PAIP/Algorytmy i Podstawy Programowania.md",
+    "PAIP/Definicje/Pseudokod.md",
+    "PAIP/Definicje/Drzewo wyrażeń.md",
     "PAIP/Definicje/Drzewo algorytmu.md",
     "PAIP/Definicje/Schemat blokowy.md",
     "PAIP/Definicje/Opis słowny.md",
