@@ -150,13 +150,23 @@
               "icon": "lucide-list",
               "title": "Outline of Algorytmy i Podstawy Programowania"
             }
+          },
+          {
+            "id": "c1a103ef172b308e",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -166,13 +176,15 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "cf77a044fe890f34",
+  "active": "a59a298f7640290c",
   "lastOpenFiles": [
-    "Untitled.canvas",
+    "Untitled.base",
     "PAIP/Algorytmy i Podstawy Programowania.md",
+    "Untitled.canvas",
     "PAIP",
     "Welcome.md",
     "create a link.md"
