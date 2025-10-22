@@ -1,0 +1,180 @@
+{
+  "main": {
+    "id": "628602083610c08e",
+    "type": "split",
+    "children": [
+      {
+        "id": "cbf81ee251eed281",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cf77a044fe890f34",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "PAIP/Algorytmy i Podstawy Programowania.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Algorytmy i Podstawy Programowania"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "54e684c286c45790",
+    "type": "split",
+    "children": [
+      {
+        "id": "41e68b19e43d7442",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a59a298f7640290c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "066a26036d51a430",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "a975f5453fa5195a",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "580a1b24b281e194",
+    "type": "split",
+    "children": [
+      {
+        "id": "7b5b69edd52a54f7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "15ea8bbdafd37fcd",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "PAIP/Algorytmy i Podstawy Programowania.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Algorytmy i Podstawy Programowania"
+            }
+          },
+          {
+            "id": "d7441a939b071203",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "PAIP/Algorytmy i Podstawy Programowania.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Algorytmy i Podstawy Programowania"
+            }
+          },
+          {
+            "id": "82c15df66c65f77f",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "ecf19824334bde85",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "PAIP/Algorytmy i Podstawy Programowania.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Algorytmy i Podstawy Programowania"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "cf77a044fe890f34",
+  "lastOpenFiles": [
+    "Untitled.canvas",
+    "PAIP/Algorytmy i Podstawy Programowania.md",
+    "PAIP",
+    "Welcome.md",
+    "create a link.md"
+  ]
+}
