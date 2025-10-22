@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PAIP/Algorytmy i Podstawy Programowania.md",
+                "file": "PAIP/Definicje/Opis słowny.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Algorytmy i Podstawy Programowania"
+              "title": "Opis słowny"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PAIP/Algorytmy i Podstawy Programowania.md",
+                "file": "PAIP/Definicje/Opis słowny.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Algorytmy i Podstawy Programowania"
+              "title": "Backlinks for Opis słowny"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PAIP/Algorytmy i Podstawy Programowania.md",
+                "file": "PAIP/Definicje/Opis słowny.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Algorytmy i Podstawy Programowania"
+              "title": "Outgoing links from Opis słowny"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PAIP/Algorytmy i Podstawy Programowania.md",
+                "file": "PAIP/Definicje/Opis słowny.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Algorytmy i Podstawy Programowania"
+              "title": "Outline of Opis słowny"
             }
           },
           {
@@ -162,7 +162,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -180,10 +180,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "025a8f93d6eacd9a",
+  "active": "c1a103ef172b308e",
   "lastOpenFiles": [
-    "PAIP/Definicje/Program.md",
     "PAIP/Algorytmy i Podstawy Programowania.md",
+    "PAIP/Definicje/Program.md",
     "PAIP/Definicje/Pseudokod.md",
     "PAIP/Definicje/Drzewo wyrażeń.md",
     "PAIP/Definicje/Drzewo algorytmu.md",
