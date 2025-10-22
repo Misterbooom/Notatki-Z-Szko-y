@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PAIP/Algorytmy i Podstawy Programowania.md",
-                "mode": "preview",
+                "file": "PAIP/Definicje/Opis słowny.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Algorytmy i Podstawy Programowania"
+              "title": "Opis słowny"
             }
           }
         ]
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PAIP/Algorytmy i Podstawy Programowania.md",
+                "file": "PAIP/Definicje/Opis słowny.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Algorytmy i Podstawy Programowania"
+              "title": "Outgoing links from Opis słowny"
             }
           },
           {
@@ -162,7 +162,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -182,8 +182,10 @@
   },
   "active": "cf77a044fe890f34",
   "lastOpenFiles": [
-    "Untitled.base",
     "PAIP/Algorytmy i Podstawy Programowania.md",
+    "PAIP/Definicje/Opis słowny.md",
+    "PAIP/Definicje",
+    "Untitled.base",
     "Untitled.canvas",
     "PAIP",
     "Welcome.md",
