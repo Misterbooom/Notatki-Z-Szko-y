@@ -1,24 +1,29 @@
-
 <br/>
 
 ## Dlaczego Ewa zerwała owoc
-- Ewa została **skuszona przez węża**, który powiedział, że zjedzenie owocu da jej **wiedzę i mądrość**, jak Bóg.  
+- Ewa została **skuszona przez węża**, który obiecał, że zjedzenie owocu da jej **wiedzę i mądrość**.  
 - Zerwała owoc z **ciekawości i pragnienia poznania dobra i zła**.
 
 ## Konsekwencje zerwania owocu
-- **Grzech pierworodny** – utrata pierwotnej niewinności.  
-- **Wygnanie z raju** – człowiek traci bezpośrednią bliskość z Bogiem.  
-- **Trud życia** – konieczność pracy, cierpienia i bólu (np. ból rodzenia dla kobiety, trud pracy dla mężczyzny).  
-- **Śmierć fizyczna i duchowa** – koniec pierwotnej nieśmiertelności i całkowita zależność od Boga.
+- **Powstanie śmierci** – człowiek staje się śmiertelny.  
+- **Wygnanie Adama i Ewy z raju** – utrata pierwotnej niewinności i bliskości z Bogiem.  
+- **Ból rodzenia dla kobiet** – trud i cierpienie przy porodzie.  
+- **Przeklęta ziemia** – konieczność ciężkiej pracy, by zdobyć pożywienie.  
+- **Brak przyjaźni między kobietą a wężem** – symboliczne oddzielenie od źródła pokusy.  
+- **Zauważenie nagłości** – człowiek staje się świadomy swojej nagości i grzechu.  
+- **Przekleństwo węża** – wąż zostaje potępiony i symbolizuje zło.  
+- **Panowanie mężczyzny nad kobietą** – hierarchia społeczna po grzechu pierworodnym.  
+- **Konieczność zdobywania pożywienia** – człowiek musi pracować, aby przeżyć.  
+- **Zamknięcie Ogrodu Eden** – brak dostępu do miejsca pierwotnej doskonałości.  
 
-## Dlaczego człowiek więcej zyskał niż stracił na wygnaniu
-- Człowiek otrzymał **świadomość dobra i zła**, dzięki czemu może dokonywać **wyborów moralnych**.  
-- Zyskał **wolną wolę**, stając się odpowiedzialnym za swoje czyny.  
-- Wygnanie pozwala na **rozwój, naukę i doświadczenie** w świecie realnym.  
-- Możliwość **odkupienia i powrotu do Boga** w ramach Bożego planu zbawienia.
+## Dlaczego człowiek więcej zyskał niż stracił
+- Zyskał **świadomość dobra i zła**, co umożliwia **wybory moralne**.  
+- Otrzymał **wolną wolę** i odpowiedzialność za swoje czyny.  
+- Wygnanie umożliwia **rozwój, naukę i doświadczenie** w świecie realnym.  
+- Istnieje możliwość **odkupienia i powrotu do Boga** w Bożym planie zbawienia.
 
-## Dodatkowe ważne informacje
-- Wąż w Biblii symbolizuje **pokusę i zło**.  
+## Dodatkowe informacje
+- Wąż symbolizuje **pokusę i zło**.  
 - Drzewo poznania dobra i zła symbolizuje **granicę między niewinnością a świadomością moralną**.  
-- Historia Adama i Ewy jest **podstawą nauk chrześcijańskich o grzechu pierworodnym** i potrzebie zbawienia.  
-- Upadek tłumaczy **dlaczego człowiek doświadcza cierpienia i śmierci** w świecie.  
+- Historia Adama i Ewy to **podstawa nauk chrześcijańskich o grzechu pierworodnym**.  
+- Upadek tłumaczy, **dlaczego człowiek doświadcza cierpienia i śmierci**.
