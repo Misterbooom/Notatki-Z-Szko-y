@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "f0b9e15c8e809dbd",
+        "id": "00d93d843ea5a08a",
         "type": "tabs",
         "children": [
           {
-            "id": "025a8f93d6eacd9a",
+            "id": "775f42f69318418b",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -180,10 +180,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "025a8f93d6eacd9a",
+  "active": "775f42f69318418b",
   "lastOpenFiles": [
     "PAIP/Algorytmy i Podstawy Programowania.md",
     "Język Polski/Biblia/Biblia.md",
+    "Znaczenie Biblii w kulturze.md",
     "Język Polski/Biblia",
     "Język Polski",
     "PAIP/Definicje/Opis słowny.md",
