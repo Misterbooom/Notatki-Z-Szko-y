@@ -21,15 +21,14 @@
 | Mówili, że Bóg karze tylko złych, **nieszczęścia nie spadają na sprawiedliwych**. | Wierzy w Boga i przyjmuje cierpienie jako próbę swojej wiary. | Pokazuje swoją **mądrość i sprawiedliwość**, rekompensuje Hiobowi krzywdy po próbie. |
 | Zachęcali Hioba do porzucenia Boga, aby uniknąć dalszych cierpień. | Trwa w wierności Bogu, zachowuje godność i modli się. | Przywraca Hiobowi **majątek, rodzinę i szczęście**, ucząc o nagrodzie po próbie. |
 
-## Wyjaśnienia pojęć
+## ## Wyjaśnienia pojęć
 
-- **Teodycea** – próba wyjaśnienia, **dlaczego w świecie stworzonym przez dobrego Boga istnieje zło i cierpienie**. Księga Hioba pokazuje to w praktyce.  
-- **Archetyp** – pierwotny wzór postaci lub sytuacji w literaturze i kulturze.  
-- **Archetyp Hioba** – **cierpiący sprawiedliwy**, który mimo nieszczęść **zostaje wierny Bogu**.  
+- **Teodycea** to próba wyjaśnienia, dlaczego w świecie stworzonym przez dobrego Boga istnieje zło i cierpienie. Księga Hioba pokazuje to w praktyce, opisując nieszczęścia Hioba i jego wierność Bogu.  
+- **Archetyp** to pierwotny wzór postaci lub sytuacji w literaturze i kulturze.  
+- **Archetyp Hioba** to postać cierpiącego sprawiedliwego, który mimo niezasłużonego cierpienia pozostaje wierny Bogu.
 
 ## Dlaczego Księgę Hioba można nazwać Księgą mądrości
-- Pokazuje **sens cierpienia i sprawiedliwości**.  
-- Uczy **cierpliwości, pokory i zaufania Bogu**.  
-- Zawiera **uniwersalne prawdy o życiu**, dlatego jest częścią Biblii mądrościowej.
+Księgę Hioba można nazwać Księgą mądrości, ponieważ uczy ludzi **cierpliwości, pokory i zaufania Bogu**. Pokazuje sens cierpienia, sprawiedliwość i działanie Boże w świecie, a także przekazuje **uniwersalne prawdy moralne i duchowe**, które są przydatne do życia i refleksji nad sensem ludzkiego losu.
+
 
 
