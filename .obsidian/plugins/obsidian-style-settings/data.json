@@ -1,10 +1,12 @@
 {
   "entry-point@@smooth-mode": true,
   "entry-point@@minimal-mode": false,
-  "entry-point@@color-scheme-selector": "color-scheme-golden-book",
-  "entry-point@@separate-color-scheme": true,
-  "blue-topaz-theme@@color-scheme-options": "color-scheme-options-topaz-nord",
+  "entry-point@@color-scheme-selector": "color-scheme-default",
+  "entry-point@@separate-color-scheme": false,
+  "blue-topaz-theme@@color-scheme-options": "color-scheme-options-monochrome-topaz",
   "blue-topaz-theme@@background-settings-workplace-background-image": true,
   "entry-point@@light-mode-color-scheme-selector": "lm-color-scheme-golden-coffee",
-  "entry-point@@dark-mode-color-scheme-selector": "dm-color-scheme-golden-book"
+  "entry-point@@dark-mode-color-scheme-selector": "dm-color-scheme-golden-book",
+  "blue-topaz-theme@@background-settings-workplace-theme-light": "background-settings-workplace-waves2-light",
+  "blue-topaz-theme@@background-settings-workplace-theme-dark": "background-settings-workplace-theme-dark-night-sky"
 }

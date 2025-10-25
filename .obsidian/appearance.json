@@ -1,5 +1,6 @@
 {
   "cssTheme": "Ukiyo",
   "theme": "obsidian",
-  "baseFontSizeAction": false
+  "baseFontSizeAction": false,
+  "textFontFamily": ""
 }
