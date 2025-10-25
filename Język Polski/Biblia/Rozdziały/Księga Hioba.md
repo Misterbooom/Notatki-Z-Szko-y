@@ -1,23 +1,35 @@
-<br/>
 
-## Dlaczego Hiob był człowiekiem szczęśliwym
+## Dlaczego Hiob był szczęśliwy
 - Hiob był **pobożny, sprawiedliwy i bogobojny**.  
-- Posiadał **rodzinę, majątek i dobre zdrowie**, co czyniło go szczęśliwym człowiekiem w oczach Boga i ludzi.
+- Posiadał **rodzinę, majątek i zdrowie**, co dawało mu szczęście.  
 
-## Co to jest hiobowa wieść
-- Hiobowa wieść to **wiadomość o nieszczęściach**, które spadły na Hioba – utracie majątku, dzieci i zdrowia.  
-- Przekazywała ją **służba lub posłańcy**, informując Hioba o kolejnych tragediach.
+## Hiobowa wieść
+- To wiadomości o **kolejnych nieszczęściach**, które spadły na Hioba: utrata majątku, dzieci i zdrowia.
 
-## Jakie na Hioba spadły nieszczęścia
+## Nieszczęścia Hioba
 - **Utrata majątku** – złoto, bydło, owce, niewolnicy.  
-- **Śmierć dzieci** – wszystkie jego dzieci zginęły w nagłych katastrofach.  
-- **Choroba** – Hiob został dotknięty bolesnymi wrzodami.  
-- **Izolacja społeczna** – ludzie odwrócili się od niego, także żona i sąsiedzi.  
+- **Śmierć dzieci** – wszystkie dzieci Hioba zginęły w katastrofach.  
+- **Choroba** – bolesne wrzody pokrywające ciało.  
+- **Izolacja społeczna** – ludzie, w tym żona i sąsiedzi, odwrócili się od niego.  
 
 ## Dialogi – tabela
 
 | Przyjaciele Hioba | Hiob | Bóg |
 |------------------|------|-----|
-| Namawiali Hioba do **wyznania grzechu** i żałoby. | Bronił swojej **sprawiedliwości** i **niewinności**. | Pokazuje, że **Bóg nie zsyła nieszczęść na sprawiedliwych**, a cierpienie ma cel i znaczenie. |
-| Twierdzili, że **cierpienia wynikają z grzechu**. | Pyta o sens cierpienia i zło świata. | Uczy pokory i wskazuje na **mądrość Bożą wykraczającą poza ludzkie rozumienie**. |
-| Mówili, że Hiob powinien się **odwrócić od Boga**, by uniknąć dalszych nieszczęść. | Zachowuje wierność Bogu mimo cierpienia. | Podkreśla, że **człowiek nie rozumie wszystkich planów Boga**, a cierpienie może być próbą lub oczyszczeniem. |
+| Namawiali Hioba do **nawrócenia** i wyznania grzechów. | Zachowuje **pokorę**, broni swojej niewinności. | Nie odpowiada od razu na pytania Hioba. |
+| Twierdzili, że **cierpienie wynika z grzechu**, a Hiob nie postępował dobrze. | Pyta o sens cierpienia i **nie rozumie kary**, pozostaje wierny. | Wskazuje, że **człowiek nie rozumie planów Boga**, a cierpienie ma głębszy sens. |
+| Mówili, że Bóg karze tylko złych, **nieszczęścia nie spadają na sprawiedliwych**. | Wierzy w Boga i przyjmuje cierpienie jako próbę swojej wiary. | Pokazuje swoją **mądrość i sprawiedliwość**, rekompensuje Hiobowi krzywdy po próbie. |
+| Zachęcali Hioba do porzucenia Boga, aby uniknąć dalszych cierpień. | Trwa w wierności Bogu, zachowuje godność i modli się. | Przywraca Hiobowi **majątek, rodzinę i szczęście**, ucząc o nagrodzie po próbie. |
+
+## Wyjaśnienia pojęć
+
+- **Teodycea** – próba wyjaśnienia, **dlaczego w świecie stworzonym przez dobrego Boga istnieje zło i cierpienie**. Księga Hioba pokazuje to w praktyce.  
+- **Archetyp** – pierwotny wzór postaci lub sytuacji w literaturze i kulturze.  
+- **Archetyp Hioba** – **cierpiący sprawiedliwy**, który mimo nieszczęść **zostaje wierny Bogu**.  
+
+## Dlaczego Księgę Hioba można nazwać Księgą mądrości
+- Pokazuje **sens cierpienia i sprawiedliwości**.  
+- Uczy **cierpliwości, pokory i zaufania Bogu**.  
+- Zawiera **uniwersalne prawdy o życiu**, dlatego jest częścią Biblii mądrościowej.
+
+
