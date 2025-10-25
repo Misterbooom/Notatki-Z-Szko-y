@@ -2,4 +2,7 @@
 
 
 ## Tematy:
-### 1. [[Biblia]]
+1. [[Biblia]]
+
+## Poboczne Tematy:
+1. [[Środki Stylistyczne]]

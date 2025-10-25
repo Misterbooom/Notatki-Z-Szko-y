@@ -11,3 +11,6 @@
 >5. [[Księga Koheleta]]
 >
 >6. [[Symbolika Księgi Apokalipsy]]
+
+
+### [[Podsumowanie Wiadomości z Biblii]]
