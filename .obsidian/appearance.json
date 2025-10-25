@@ -2,5 +2,6 @@
   "cssTheme": "Ukiyo",
   "theme": "obsidian",
   "baseFontSizeAction": false,
-  "textFontFamily": ""
+  "textFontFamily": "Consolas",
+  "interfaceFontFamily": "Consolas"
 }
