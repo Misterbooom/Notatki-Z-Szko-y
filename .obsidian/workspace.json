@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "10bbe26b16723a5f",
+        "id": "955cff0c5f76a168",
         "type": "tabs",
         "children": [
           {
-            "id": "97c885e6b8fa2ae8",
+            "id": "541421c5bfae41bd",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Język Polski/Biblia/Podsumowanie Wiadomości z Biblii.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Podsumowanie Wiadomości z Biblii"
             }
           }
         ]
@@ -90,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Język Polski/Biblia/Podsumowanie Wiadomości z Biblii.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for Podsumowanie Wiadomości z Biblii"
             }
           },
           {
@@ -174,19 +179,20 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "97c885e6b8fa2ae8",
+  "active": "541421c5bfae41bd",
   "lastOpenFiles": [
-    "Szkoła.md",
+    "Język Polski/Biblia/Rozdziały/Symbolika Księgi Apokalipsy.md",
+    "Język Polski/Biblia/Podsumowanie Wiadomości z Biblii.md",
     "Język Polski/Biblia/Biblia.md",
+    "Język Polski/Biblia/Rozdziały/Księga Koheleta.md",
     "Język Polski/Język Polski.md",
+    "Szkoła.md",
     "PAIP/Algorytmy i Podstawy Programowania.md",
     "PAIP/PAIP.md",
-    "Język Polski/Biblia/Rozdziały/Księga Koheleta.md",
     "Język Polski/Biblia/Rozdziały/Upadek pierwszych ludzi.md",
     "Język Polski/Biblia/Rozdziały/Znaczenie Biblii w kulturze.md",
     "Język Polski/Biblia/Rozdziały/Kosmogonia biblijna.md",
     "Język Polski/Biblia/Rozdziały/Księga Hioba.md",
-    "Symbolika Księgi Apokalipsy.md",
     "PAIP/Definicje/Schemat blokowy.md",
     "PAIP/Definicje/Drzewo wyrażeń.md",
     "PAIP/Definicje/Lista kroków.md",
