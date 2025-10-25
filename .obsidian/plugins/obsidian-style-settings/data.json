@@ -1,0 +1,10 @@
+{
+  "entry-point@@smooth-mode": true,
+  "entry-point@@minimal-mode": false,
+  "entry-point@@color-scheme-selector": "color-scheme-golden-book",
+  "entry-point@@separate-color-scheme": true,
+  "blue-topaz-theme@@color-scheme-options": "color-scheme-options-topaz-nord",
+  "blue-topaz-theme@@background-settings-workplace-background-image": true,
+  "entry-point@@light-mode-color-scheme-selector": "lm-color-scheme-golden-coffee",
+  "entry-point@@dark-mode-color-scheme-selector": "dm-color-scheme-golden-book"
+}
