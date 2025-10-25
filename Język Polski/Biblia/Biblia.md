@@ -7,7 +7,7 @@
 >3. [[Upadek pierwszych ludzi]]
   >  
 >4. [[Księga Hioba]]
+>  
+>5. [[Księga Koheleta]]
 >
-1. 
-    
->1. [[Symbolika Księgi Apokalipsy]]
+>6. [[Symbolika Księgi Apokalipsy]]
