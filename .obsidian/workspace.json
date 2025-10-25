@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PAIP/Algorytmy i Podstawy Programowania.md",
-                "mode": "preview",
+                "file": "Język Polski/Biblia/Biblia.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Algorytmy i Podstawy Programowania"
+              "title": "Biblia"
             }
           }
         ]
@@ -182,8 +182,11 @@
   },
   "active": "025a8f93d6eacd9a",
   "lastOpenFiles": [
-    "PAIP/Definicje/Opis słowny.md",
     "PAIP/Algorytmy i Podstawy Programowania.md",
+    "Język Polski/Biblia/Biblia.md",
+    "Język Polski/Biblia",
+    "Język Polski",
+    "PAIP/Definicje/Opis słowny.md",
     "PAIP/Definicje/Program.md",
     "PAIP/Definicje/Pseudokod.md",
     "PAIP/Definicje/Drzewo wyrażeń.md",
