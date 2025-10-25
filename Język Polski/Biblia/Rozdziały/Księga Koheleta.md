@@ -1,11 +1,19 @@
+
+<br/>
+
+
 ## Co to jest Vanitas
 - **Vanitas** oznacza **próżność, marność i nietrwałość**.  
 - W Księdze Koheleta wyraża **bezsens doczesnych rzeczy i przemijalność życia**.
 
-## Krótki opis Księgi Koheleta
-- Księga rozważa **sens życia człowieka** i jego doczesne działania.  
-- Kohelet (narrator) stwierdza, że **wszystko jest marnością i przemija**.  
-- Opisuje **pracę, przyjemności, bogactwo i mądrość**, pokazując, że nic nie daje trwałego spełnienia.
+## ## Krótki opis Księgi Koheleta
+- Kohelet rozważa **sens życia człowieka** i **przemijalność jego działań**.  
+- Opisuje **pracę, bogactwo, przyjemności i mądrość**, pokazując, że nic nie daje trwałego spełnienia.  
+- Podkreśla **powtarzalność życia, upływ czasu i nietrwałość ludzkich starań**.  
+- Przekazuje swoje nauki z perspektywy doświadczonego człowieka i **uczy, by cieszyć się chwilą i ufać Bogu**, bo wszystko doczesne przemija.
+
+
+
 
 ## Dlaczego życie człowieka to marnotrawstwo
 - Ludzkie życie jest **krótkie i przemijające**, a ludzkie starania często nie przynoszą trwałych rezultatów.  
