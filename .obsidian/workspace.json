@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Język Polski/Biblia/Rozdziały/Kosmogonia biblijna.md",
-                "mode": "source",
+                "file": "Język Polski/Biblia/Rozdziały/Upadek pierwszych ludzi.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Kosmogonia biblijna"
+              "title": "Upadek pierwszych ludzi"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Język Polski/Biblia/Rozdziały/Kosmogonia biblijna.md",
+                "file": "Język Polski/Biblia/Rozdziały/Upadek pierwszych ludzi.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Kosmogonia biblijna"
+              "title": "Backlinks for Upadek pierwszych ludzi"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PAIP/Algorytmy i Podstawy Programowania.md",
+                "file": "Język Polski/Biblia/Rozdziały/Upadek pierwszych ludzi.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Algorytmy i Podstawy Programowania"
+              "title": "Outgoing links from Upadek pierwszych ludzi"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PAIP/Algorytmy i Podstawy Programowania.md",
+                "file": "Język Polski/Biblia/Rozdziały/Upadek pierwszych ludzi.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Algorytmy i Podstawy Programowania"
+              "title": "Outline of Upadek pierwszych ludzi"
             }
           },
           {
@@ -161,7 +161,8 @@
               "title": "Source Control"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -179,13 +180,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "29195ddf54047d00",
+  "active": "c1a103ef172b308e",
   "lastOpenFiles": [
     "Język Polski/Biblia/Biblia.md",
+    "Język Polski/Biblia/Rozdziały/Kosmogonia biblijna.md",
     "Język Polski/Biblia/Rozdziały/Znaczenie Biblii w kulturze.md",
     "Język Polski/Język Polski.md",
     "Język Polski/Środki Stylistyczne.md",
-    "Język Polski/Biblia/Rozdziały/Kosmogonia biblijna.md",
     "Język Polski/Biblia/Podsumowanie Wiadomości z Biblii.md",
     "Język Polski/Biblia/Rozdziały/Symbolika Księgi Apokalipsy.md",
     "Język Polski/Biblia/Rozdziały/Księga Koheleta.md",

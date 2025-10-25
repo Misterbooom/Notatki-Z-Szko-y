@@ -1,14 +1,20 @@
 </br>
 
 
-## Definicja kosmogonii
+##  Definicja kosmogonii
 **Kosmogonia** – opis powstania świata i człowieka.
 
 ## Księga Rodzaju
 Pierwsza księga Biblii, opisująca **stworzenie świata** i początki ludzkości.
 
 ## Obraz świata w Księdze Rodzaju
-- Świat stworzony przez Boga w **sześciu dniach**.  
+- Świat stworzony przez Boga w **sześciu dniach**:  
+  1. **Dzień pierwszy** – stworzenie światła i oddzielenie dnia od nocy.  
+  2. **Dzień drugi** – stworzenie nieba i oddzielenie wód nad niebem od wód pod niebem.  
+  3. **Dzień trzeci** – stworzenie lądów i roślinności, w tym drzew owocowych.  
+  4. **Dzień czwarty** – stworzenie słońca, księżyca i gwiazd do wyznaczania dni i pór roku.  
+  5. **Dzień piąty** – stworzenie ryb i ptaków.  
+  6. **Dzień szósty** – stworzenie zwierząt lądowych i człowieka jako zwieńczenia dzieła.  
 - **Podział na dzień i noc**.  
 - Stworzenie w **ścisłej hierarchii** – człowiek jako zwieńczenie dzieła.  
 - Świat **dobry**, pełen owoców i pożytecznych zwierząt.  
