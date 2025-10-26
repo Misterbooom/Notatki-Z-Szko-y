@@ -9,7 +9,7 @@
 ## Nieszczęścia Hioba
 - **Utrata majątku** – złoto, bydło, owce, niewolnicy.  
 - **Śmierć dzieci** – wszystkie dzieci Hioba zginęły w katastrofach.  
-- **Choroba** – bolesne wrzody pokrywające ciało.  
+- **Choroba** – bolesne wrzody pokrywające ciało (choroba trądu). 
 - **Izolacja społeczna** – ludzie, w tym żona i sąsiedzi, odwrócili się od niego.  
 
 ## Dialogi – tabela
