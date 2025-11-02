@@ -1,4 +1,5 @@
 
+
 ## Present Perfect
 
 ### Budowa
@@ -18,6 +19,14 @@ np. *I have eaten*, *She has gone*, *They have finished.*
 ### Określenia czasu
 ever, never, just, already, yet, so far, recently, since, for
 
+### Tworzenie pytań
+**Have/Has + osoba + III forma czasownika?**  
+np. *Have you seen this film?* / *Has she finished her homework?*
+
+### Odpowiedzi
+- **Krótka twierdząca:** *Yes, I have.* / *Yes, she has.*  
+- **Krótka przecząca:** *No, I haven’t.* / *No, she hasn’t.*
+
 ---
 
 ## Present Perfect Continuous
@@ -36,6 +45,14 @@ np. *I have been studying*, *She has been working.*
 
 ### Określenia czasu
 for, since, all day, how long, lately, recently
+
+### Tworzenie pytań
+**Have/Has + osoba + been + czasownik-ing?**  
+np. *Have you been studying English?* / *Has he been working today?*
+
+### Odpowiedzi
+- **Krótka twierdząca:** *Yes, I have.* / *Yes, he has.*  
+- **Krótka przecząca:** *No, I haven’t.* / *No, he hasn’t.*
 
 ---
 
