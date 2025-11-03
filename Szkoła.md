@@ -4,3 +4,5 @@
 
 - [[PAIP]]
 - [[Język Polski]]
+- [[Język Angielski]]
+- [[Jezyk]]
