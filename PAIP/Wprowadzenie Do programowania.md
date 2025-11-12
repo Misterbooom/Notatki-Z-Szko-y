@@ -330,8 +330,23 @@ Język programowania to formalny sposób zapisu algorytmu + reguły składni i s
     
 
 ---
+## 6.OOP – podstawy i 4 filary
 
-## 6. Wnioski
+### Klasa / Obiekt / Konstruktor / Destruktor
+
+Przykład prosty (C++) w tekście.
+
+### 4 filary
+
+- **Abstrakcja** – wydzielenie istotnych cech.
+    
+- **Polimorfizm** – różne zachowania tej samej nazwy (przeciążanie, rzutowanie).
+    
+- **Dziedziczenie** – klasa potomna odziedzicza pola/metody.
+    
+- **Hermetyzacja** – kontrola dostępu (`private`, `protected`, `public`).
+
+## 7. Wnioski
 
 - Współczesne języki są **wieloparadygmatowe** – łączą cechy różnych stylów (np. Python: proceduralny + obiektowy + funkcyjny).
     
