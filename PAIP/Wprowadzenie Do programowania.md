@@ -13,32 +13,27 @@
 
 ### 🧩 Cechy algorytmu
 
-- **Poprawność** – poprawne wyniki dla poprawnych danych.
-    
-- **Skończoność** – kończy się po określonej liczbie kroków.
-    
-- **Efektywność** – minimalna liczba kroków.
-    
-- **Jednoznaczność** – deterministyczny dla tych samych danych.
-    
-- **Uniwersalność** – działa dla klasy podobnych zadań.
-    
-- **Określony początek i koniec.**
+- **Poprawność** – daje poprawne wyniki dla poprawnych danych.  
+- **Skończoność** – kończy się po określonej liczbie kroków.  
+- **Efektywność** – wykonuje zadanie w jak najmniejszej liczbie kroków.  
+- **Jednoznaczność** – dla tych samych danych zawsze daje ten sam wynik.  
+- **Uniwersalność** – można go zastosować do różnych przypadków danego typu zadań.  
+- **Określony początek i koniec** – wiadomo, kiedy się zaczyna i kończy.**
     
 
 ---
 
 ### 🧮 Sposoby przedstawiania algorytmów
 
-| Sposób               | Opis                                        |
-| :------------------- | :------------------------------------------ |
-| [[Opis słowny]]      | opis kroków                                 |
-| [[Lista kroków]]     | sekwencja instrukcji                        |
-| [[Schemat blokowy]]  | graficznie: start/decyzje/operacje          |
-| [[Drzewo algorytmu]] | możliwe ścieżki wykonania                   |
-| [[Drzewo wyrażeń]]   | dla wyrażeń matematycznych                  |
-| [[Pseudokod]]        | styl programistyczny bez konkretnego języka |
-| [[Program]]          | kod w konkretnym języku (np. C++)           |
+| Sposób                   | Opis                                                           |
+| ------------------------ | -------------------------------------------------------------- |
+| **[[Opis słowny]]**      | Po prostu opisujemy, co ma się dziać krok po kroku.            |
+| **[[Lista kroków]]**     | Numerujemy polecenia: Krok 1 – wczytaj x, Krok 2 – policz…     |
+| **[[Schemat blokowy]]**  | Graficzne przedstawienie algorytmu (start, decyzje, operacje). |
+| **[[Drzewo algorytmu]]** | Pokazuje możliwe ścieżki wykonania kroków.                     |
+| **[[Drzewo wyrażeń]]**   | Dla działań matematycznych, np. (3+2)-(4-2).                   |
+| **[[Pseudokod]]**        | Zapis w stylu programowania, ale bez konkretnego języka.       |
+| **[[Program]]**          | Gotowy kod w języku programowania (np. C++).                   |
 
 **Przykład pseudokodu:**
 
@@ -168,10 +163,12 @@ int szescian[3][3][3];
 
 ---
 
-## 🧰 Typy złożone
+## ## 🧰 Typy złożone
+
+Kiedy potrzebujemy przechować różne dane o jednym obiekcie (np. produkt ma nazwę, markę i cenę).
 
 ### Struktura (`struct`)
-
+Grupuje dane różnego typu:
 ```cpp
 struct Product {
   string name;
@@ -180,15 +177,19 @@ struct Product {
 };
 Product p1;
 ```
-
+Czyli - `struct` to typ złożony, który **grupuje różne pola danych** (różnego typu) pod jedną nazwą.  
+Każde pole ma własne miejsce w pamięci.  
+Domyślnie **pola i metody są publiczne**.
 ### Unia (`union`)
 
-Podobna do struktury, ale wszystkie pola **dzielą ten sam obszar pamięci**.
+`union` to typ złożony podobny do `struct`, ale **wszystkie pola współdzielą ten sam obszar pamięci**.  
+W danym momencie można poprawnie używać **tylko jednego pola**.  
+Rozmiar unii = rozmiar jej największego pola.  
+Domyślnie **pola są publiczne**.
 
 ### Klasa (`class`)
-
-Rozszerzona struktura – oprócz danych może mieć **metody**.
-
+Rozszerzona struktura – oprócz danych może mieć też **funkcje (metody)**.  
+Używana w programowaniu obiektowym.
 ---
 
 ## ✨ PODSUMOWANIE (krótko)
@@ -216,11 +217,11 @@ Język programowania to formalny sposób zapisu algorytmu + reguły składni i s
 
 ### Trzy aspekty
 
-- **Składnia** – forma zapisu (dla programisty).
+- **Składnia** – Zasady **pisania kodu** określa jak należy pisać instrukcje, by był.
     
-- **Syntaktyka** – formalna struktura (dla kompilatora).
+- **Syntaktyka** – **Formalna struktura języka**, określająca poprawne układy symboli (dla kompilatora).
     
-- **Semantyka** – znaczenie (co program robi).
+- **Semantyka** – **Znaczenie** poprawnych konstrukcji — opisuje, **co program robi** po wykonaniu.
     
 
 ---
