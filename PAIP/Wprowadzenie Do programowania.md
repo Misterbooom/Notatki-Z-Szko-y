@@ -186,48 +186,62 @@ Język programowania to formalny sposób zapisu algorytmu + reguły składni i s
 
 ---
 
-## 2. Podziały języków
+## 2. Podziały języków programowania
 
-### Ze względu na przetwarzanie
+### Ze względu na sposób przetwarzania kodu
 
-- **Kompilowane** – kompilacja → plik wykonywalny (`C, C++`).
+- **Języki kompilowane** – kod źródłowy jest **tłumaczony przez kompilator** na kod maszynowy (plik wykonywalny), który można uruchomić bezpośrednio w systemie operacyjnym.  
+    🔹 Przykłady: `C, C++, Rust, Go`.
     
-- **Interpretowane** – wykonywane przez interpreter (`Python, JS`).
+- **Języki interpretowane** – kod źródłowy jest **analizowany i wykonywany linia po linii** przez interpreter, bez tworzenia pliku binarnego.  
+    🔹 Przykłady: `Python, JavaScript, PHP, Ruby`.
     
 
 |Cecha|Kompilowane|Interpretowane|
 |---|---|---|
-|Prędkość|wyższa|niższa|
-|Błędy|wykrywane przy kompilacji|przy uruchomieniu|
+|**Prędkość działania**|Zazwyczaj wyższa, bo wykonywany jest kod maszynowy|Niższa, bo interpreter analizuje kod w czasie rzeczywistym|
+|**Wykrywanie błędów**|Przy kompilacji (przed uruchomieniem)|Podczas wykonywania programu|
+|**Dystrybucja**|Plik wykonywalny (bez źródeł)|Kod źródłowy (uruchamiany przez interpreter)|
 
-### Typowanie
+### Ze względu na typowanie zmiennych
 
-- **Statyczne** – typy w kompilacji (C++, Java).
+- **Statyczne typowanie** – typy danych są znane już na etapie kompilacji; każda zmienna ma określony typ, którego nie można zmienić.  
+    🔹 Przykłady: `C++, Java, Rust`.
+    
+    `int x = 10; x = "tekst"; // błąd kompilacji`
+    
+- **Dynamiczne typowanie** – typ zmiennej ustalany jest w czasie działania programu; typ może się zmieniać.  
+    🔹 Przykłady: `Python, JavaScript`.
+    
+    `x = 10 x = "tekst"  # dozwolone`
     
 
-`int x = 10; // błąd: x = "tekst";`
+### Ze względu na poziom abstrakcji
 
-- **Dynamiczne** – typy w runtime (Python).
+- **Języki wysokiego poziomu** – zbliżone do języka naturalnego, ułatwiające programowanie (automatyczne zarządzanie pamięcią, bogate biblioteki).  
+    🔹 Przykłady: `Python, Java, C#, Kotlin`.
+    
+- **Języki niskiego poziomu** – bliskie architekturze sprzętu, dają pełną kontrolę nad pamięcią i zasobami, ale są trudniejsze w użyciu.  
+    🔹 Przykłady: `Assembler, C`.
     
 
-`x = 10 x = "tekst"`
+### Ze względu na zastosowania
 
-### Poziom
-
-- **Wysokiego poziomu** – bliżej człowieka (Python, Java).
+- **Aplikacje desktopowe:** `C, C++, C#, Java, Python`
     
-- **Niskiego poziomu** – bliżej sprzętu (Assembler, C).
+- **Aplikacje webowe:**
     
-
-### Zastosowania (przykłady)
-
-- Desktop: `C, C++, C#, Java, Python`
+    - Frontend: `JavaScript, TypeScript`
+        
+    - Backend: `Python, PHP, Ruby, Java, Node.js`
+        
+- **Aplikacje mobilne:**
     
-- Web: frontend `JS/TS`, backend `Python, PHP, Ruby, Java`
-    
-- Mobile: `Kotlin/Java (Android), Swift (iOS)`
-    
-- Embedded: `C, C++, Assembler`
+    - `Kotlin, Java` (Android)
+        
+    - `Swift` (iOS)
+        
+- **Systemy wbudowane (embedded):** `C, C++, Assembler`
     
 
 ---
@@ -236,80 +250,84 @@ Język programowania to formalny sposób zapisu algorytmu + reguły składni i s
 
 ### Definicja
 
-Paradygmat = styl/konwencja programowania (jak opisujemy dane i działania).
+**Paradygmat programowania** to sposób (styl) myślenia o programowaniu – zestaw zasad i konwencji, które określają **jak organizujemy dane i operacje** w kodzie.
 
 ### Imperatywny vs Deklaratywny
 
-- **Imperatywny** – opisujesz _jak_ (instrukcje).
+- **Imperatywny** – opisuje _jak_ coś zrobić, krok po kroku (ciąg instrukcji zmieniających stan programu).  
+    🔹 Przykład: C, Python, Java.
     
-- **Deklaratywny** – opisujesz _co_ (wynik).
+    `suma = 0 for x in lista:     suma += x`
+    
+- **Deklaratywny** – opisuje _co_ chcemy uzyskać, a nie _jak_ to zrobić.  
+    🔹 Przykład: SQL, HTML, Prolog.
+    
+    `SELECT SUM(x) FROM tabela;`
     
 
 ### Główne paradygmaty
 
-- **Strukturalny** – logiczne bloki, brak `goto`.
+- **Strukturalny** – program dzielony na logiczne bloki i instrukcje sterujące (`if`, `for`, `while`), bez użycia `goto`.
     
-- **Proceduralny** – funkcje/procedury.
+- **Proceduralny** – kod organizowany w funkcje (procedury), które można wielokrotnie wywoływać.
     
-- **Obiektowy (OOP)** – klasy, obiekty, metody.
+- **Obiektowy (OOP)** – świat programu modelowany przez obiekty posiadające dane (pola) i zachowania (metody).
     
-- **Aspektowy (AOP)** – separacja aspektów (logowanie, bezpieczeństwo).
+- **Aspektowy (AOP)** – separacja tzw. aspektów przekrojowych, np. logowanie, autoryzacja, obsługa błędów.
     
-- **Generyczny** – szablony / generyki (C++, Java, C#).
-    
-
----
-
-## OOP – podstawy i 4 filary
-
-### Klasa / Obiekt / Konstruktor / Destruktor
-
-Przykład prosty (C++) w tekście.
-
-### 4 filary
-
-- **Abstrakcja** – wydzielenie istotnych cech.
-    
-- **Polimorfizm** – różne zachowania tej samej nazwy (przeciążanie, rzutowanie).
-    
-- **Dziedziczenie** – klasa potomna odziedzicza pola/metody.
-    
-- **Hermetyzacja** – kontrola dostępu (`private`, `protected`, `public`).
+- **Generyczny (szablonowy)** – pisanie uniwersalnych funkcji/klas działających na różnych typach danych (np. `templates` w C++, `generics` w Javie i C#).
     
 
 ---
 
-## 4. Definicje PROGRAMU (różne podejścia)
+## 4. Program – definicje
 
-- **Ogólnie:** PROGRAM = algorytm zapisany w języku, wykonujący zadanie.
+- **Ogólnie:** program to **algorytm zapisany w języku programowania**, który wykonuje określone zadanie.
     
-- **Proceduralnie:** zbiór podprogramów zarządzanych przez `main()`.
+- **W podejściu proceduralnym:** program to **zbiór funkcji i procedur** zarządzanych przez funkcję `main()`.
     
-- **Obiektowo:** zestaw komunikujących się obiektów tworzonych z klas.
+- **W podejściu obiektowym:** program to **zestaw współpracujących obiektów**, tworzonych na podstawie klas.
     
 
 ---
 
 ## 5. Zasady programowania (mnemoniki)
 
-- **SOLID**, **KISS**, **DRY**, **YAGNI**
+- **SOLID** – 5 zasad dobrego projektowania obiektowego:
     
-- **Object Calisthenics** – 9 zasad czystego kodu obiektowego
+    - **S** – Single Responsibility
+        
+    - **O** – Open/Closed
+        
+    - **L** – Liskov Substitution
+        
+    - **I** – Interface Segregation
+        
+    - **D** – Dependency Inversion
+        
+- **KISS** – _Keep It Simple, Stupid_ – prostota ponad złożoność.
+    
+- **DRY** – _Don’t Repeat Yourself_ – unikanie powielania kodu.
+    
+- **YAGNI** – _You Aren’t Gonna Need It_ – nie implementuj funkcji, których jeszcze nie potrzebujesz.
+    
+- **Object Calisthenics** – zestaw 9 zasad czystego kodu obiektowego, np. jedna odpowiedzialność na klasę, brak `else`, małe klasy, proste metody.
     
 
 ---
 
 ## 6. Wnioski
 
-- Współczesne języki są **wieloparadygmatowe**.
+- Współczesne języki są **wieloparadygmatowe** – łączą cechy różnych stylów (np. Python: proceduralny + obiektowy + funkcyjny).
     
-- Wybór paradygmatu zależy od projektu, zespołu i wymagań.
+- Wybór paradygmatu zależy od:
     
-- Zrozumienie paradygmatów przyspiesza naukę nowych języków.
+    - rodzaju projektu,
+        
+    - wielkości zespołu,
+        
+    - wymagań wydajnościowych i skalowalności.
+        
+- Zrozumienie różnych paradygmatów pomaga szybciej **uczyć się nowych języków** i **lepiej projektować rozwiązania**.
     
-
----
-
-## Kluczowe pojęcia do zapamiętania
-
-Składnia, syntaktyka, semantyka · Kompilacja vs interpretacja · Typowanie statyczne vs dynamiczne · Poziomy języków · Imperatywny vs deklaratywny · Strukturalny/proceduralny/obiektowy · Klasa/obiekt/konstruktor/destruktor · 4 filary OOP · Przeciążanie, rzutowanie · Modyfikatory: `private`, `protected`, `public`
+- Dobry programista potrafi **dopasować styl programowania** do konkretnego problemu, zamiast trzymać się jednego podejścia.
