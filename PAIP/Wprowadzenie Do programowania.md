@@ -217,11 +217,11 @@ Język programowania to formalny sposób zapisu algorytmu + reguły składni i s
 
 ### Trzy aspekty
 
-- **Składnia** – Zasady **pisania kodu** określa jak należy pisać instrukcje, by były poprawne.
+- **Składnia** – Zasady **pisania kodu** - określa jak należy pisać instrukcje, by były poprawne.
     
 - **Syntaktyka** – **Formalna struktura języka**, określająca poprawne układy symboli (dla kompilatora).
     
-- **Semantyka** – **Znaczenie** kodu określa, co robi program po poprawnym zapisaniu
+- **Semantyka** – **Znaczenie** kodu - określa, co robi program po poprawnym zapisaniu
     
 
 ---
