@@ -26,15 +26,15 @@
 
 ### 🧮 Sposoby przedstawiania algorytmów
 
-|Sposób|Opis|
-|---|---|
-|**Opis słowny**|opis kroków|
-|**Lista kroków**|sekwencja instrukcji|
-|**Schemat blokowy**|graficznie: start/decyzje/operacje|
-|**Drzewo algorytmu**|możliwe ścieżki wykonania|
-|**Drzewo wyrażeń**|dla wyrażeń matematycznych|
-|**Pseudokod**|styl programistyczny bez konkretnego języka|
-|**Program**|kod w konkretnym języku (np. C++)|
+| Sposób                   | Opis                                        |
+| ------------------------ | ------------------------------------------- |
+| [[Opis słowny]]          | opis kroków                                 |
+| **[[Lista kroków]]**     | sekwencja instrukcji                        |
+| **[[Schemat blokowy]]**  | graficznie: start/decyzje/operacje          |
+| **[[Drzewo algorytmu]]** | możliwe ścieżki wykonania                   |
+| **[[Drzewo wyrażeń]]**   | dla wyrażeń matematycznych                  |
+| **[[Pseudokod]]**        | styl programistyczny bez konkretnego języka |
+| **[[Program]]**          | kod w konkretnym języku (np. C++)           |
 
 **Przykład pseudokodu:**
 
