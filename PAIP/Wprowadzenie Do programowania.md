@@ -116,38 +116,53 @@
 
 ---
 
-## 🧱 TABLICE
+## ## 🧱 TABLICE
 
-### Jednowymiarowa
+### Tablica jednowymiarowa
+Zbiór elementów tego samego typu, np. kilka ocen ucznia.
 
-`int oceny[5] = {5,6,4,5,5};`
+```cpp
+int oceny[5] = {5, 6, 4, 5, 5};
+```
+➡️ Indeksowanie od 0 → pierwszy element to `oceny[0]`
 
-Indeksy od `0` do `N-1` (`oceny[0]` pierwsza).
+### Tablica dwuwymiarowa
+Można ją wyobrazić jak tabelkę (wiersze i kolumny).
 
-### Dwuwymiarowa
+```cpp
+int macierz[2][3] = {{1,2,3}, {4,5,6}};
+```
 
-`int macierz[2][3] = {{1,2,3},{4,5,6}};`
-
-### Trójwymiarowa
-
-`int szescian[3][3][3];`
+### Tablica trójwymiarowa
+Wyobraź sobie kostkę Rubika:
+```cpp
+int szescian[3][3][3];
+```
 
 ---
+---
 
-## 🧰 Typy złożone
+## ## 🧰 Typy złożone
+
+Kiedy potrzebujemy przechować różne dane o jednym obiekcie (np. produkt ma nazwę, markę i cenę).
 
 ### Struktura (`struct`)
-
-`struct Product {   string name;   string brand;   float price; }; Product p1;`
+Grupuje dane różnego typu:
+```cpp
+struct Product {
+  string name;
+  string brand;
+  float price;
+};
+Product p1;
+```
 
 ### Unia (`union`)
-
-- Pola dzielą ten sam obszar pamięci (używane zamiennie).
-    
+Podobna do struktury, ale wszystkie pola **dzielą ten sam obszar pamięci** (czyli mogą być używane zamiennie).
 
 ### Klasa (`class`)
-
-- Dane + metody. Podstawa OOP.
+Rozszerzona struktura – oprócz danych może mieć też **funkcje (metody)**.  
+Używana w programowaniu obiektowym.
     
 
 ---
