@@ -1,7 +1,10 @@
 # 🧠 KOMPRENDIUM test DO NAUKI – ALGORYTMY I PODSTAWY PROGRAMOWANIA
 
 ## 1️⃣ ALGORYTM
-iczbie kroków prowadzi do rozwiązania problemu.  
+
+### 📘 Definicja
+
+**Algorytm** – jednoznacznie określony ciąg instrukcji, który w skończonej liczbie kroków prowadzi do rozwiązania problemu.  
 👉 W prostych słowach: przepis krok-po-kroku, jak uzyskać wynik z danych.
 
 ### 🧩 Cechy algorytmu
@@ -31,7 +34,7 @@ iczbie kroków prowadzi do rozwiązania problemu.
 | **[[Drzewo algorytmu]]** | możliwe ścieżki wykonania                   |
 | **[[Drzewo wyrażeń]]**   | dla wyrażeń matematycznych                  |
 | **[[Pseudokod]]**        | styl programistyczny bez konkretnego języka |
-| **[[Program]]**          | kod w konkretnym języku (np. C++)           |
+| **Program**              | kod w konkretnym języku (np. C++)           |
 
 **Przykład pseudokodu:**
 
