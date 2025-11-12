@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Język Niemiecki/Odmiana Czasowników.md",
+                "file": "PAIP/Wprowadzenie Do programowania.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Odmiana Czasowników"
+              "title": "Wprowadzenie Do programowania"
             }
           }
         ],
@@ -222,8 +222,9 @@
   },
   "active": "20900f3d71d8b52c",
   "lastOpenFiles": [
-    "Język Niemiecki/Język Niemiecki.md",
+    "PAIP/PAIP.md",
     "Język Niemiecki/Odmiana Czasowników.md",
+    "Język Niemiecki/Język Niemiecki.md",
     "Język Angielski/Język Angielski.md",
     "Untitled",
     "Present Perfect.md",
@@ -243,8 +244,7 @@
     "Język Polski/Biblia/Rozdziały/Upadek pierwszych ludzi.md",
     "Język Polski/Biblia/Rozdziały/Znaczenie Biblii w kulturze.md",
     "Język Polski/Język Polski.md",
-    "PAIP/Algorytmy i Podstawy Programowania.md",
-    "PAIP/PAIP.md",
+    "PAIP/Wprowadzenie Do programowania.md",
     "PAIP/Definicje/Schemat blokowy.md",
     "PAIP/Definicje/Drzewo wyrażeń.md",
     "PAIP/Definicje/Lista kroków.md",

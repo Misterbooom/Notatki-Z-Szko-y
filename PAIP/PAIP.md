@@ -1,1 +1,1 @@
-## 1. [[Algorytmy i Podstawy Programowania]]
+## 1. [[Wprowadzenie Do programowania]]
