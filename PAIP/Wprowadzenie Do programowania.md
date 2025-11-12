@@ -1,10 +1,7 @@
 # 🧠 KOMPRENDIUM test DO NAUKI – ALGORYTMY I PODSTAWY PROGRAMOWANIA
 
 ## 1️⃣ ALGORYTM
-
-### 📘 Definicja
-
-**Algorytm** – jednoznacznie określony ciąg instrukcji, który w skończonej liczbie kroków prowadzi do rozwiązania problemu.  
+iczbie kroków prowadzi do rozwiązania problemu.  
 👉 W prostych słowach: przepis krok-po-kroku, jak uzyskać wynik z danych.
 
 ### 🧩 Cechy algorytmu
