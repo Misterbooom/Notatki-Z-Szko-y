@@ -209,7 +209,7 @@ Używana w programowaniu obiektowym.
 
 ---
 
-## 1️⃣ JĘZYK PROGRAMOWANIA – definicje i pojęcia
+## 1️. JĘZYK PROGRAMOWANIA – definicje i pojęcia
 
 ### Definicja
 
@@ -217,16 +217,16 @@ Język programowania to formalny sposób zapisu algorytmu + reguły składni i s
 
 ### Trzy aspekty
 
-- **Składnia** – Zasady **pisania kodu** określa jak należy pisać instrukcje, by był.
+- **Składnia** – Zasady **pisania kodu** określa jak należy pisać instrukcje, by były poprawne.
     
 - **Syntaktyka** – **Formalna struktura języka**, określająca poprawne układy symboli (dla kompilatora).
     
-- **Semantyka** – **Znaczenie** poprawnych konstrukcji — opisuje, **co program robi** po wykonaniu.
+- **Semantyka** – **Znaczenie** kodu określa, co robi program po poprawnym zapisaniu
     
 
 ---
 
-## 2️⃣ Podziały języków programowania
+## 2️. Podziały języków programowania
 
 ### Ze względu na sposób przetwarzania kodu
 
@@ -275,7 +275,7 @@ Język programowania to formalny sposób zapisu algorytmu + reguły składni i s
 
 ---
 
-## 3️⃣ Paradygmaty programowania
+## 3️. Paradygmaty programowania
 
 ### Definicja
 
@@ -305,20 +305,15 @@ SELECT SUM(x) FROM tabela;
 
 ### Główne paradygmaty
 
-- Strukturalny
-    
-- Proceduralny
-    
-- Obiektowy (OOP)
-    
-- Aspektowy (AOP)
-    
-- Generyczny (szablonowy)
-    
+- **Strukturalny** – program dzielony na logiczne bloki i instrukcje sterujące (`if`, `for`, `while`), bez użycia `goto`.
+- **Proceduralny** – kod organizowany w funkcje (procedury), które można wielokrotnie wywoływać.
+- **Obiektowy (OOP)** – świat programu modelowany przez obiekty posiadające dane (pola) i zachowania (metody).
+- **Aspektowy (AOP)** – separacja tzw. aspektów przekrojowych, np. logowanie, autoryzacja, obsługa błędów.
+- **Generyczny (szablonowy)** – pisanie uniwersalnych funkcji/klas działających na różnych typach danych (np. `templates` w C++, `generics` w Javie i C#).
 
 ---
 
-## 4️⃣ Program – definicje
+## 4️. Program – definicje
 
 - Program = algorytm zapisany w języku programowania.
     
@@ -329,7 +324,7 @@ SELECT SUM(x) FROM tabela;
 
 ---
 
-## 5️⃣ Zasady programowania (mnemoniki)
+## 5️. Zasady programowania (mnemoniki)
 
 - **SOLID** – zasady projektowania obiektowego.
     
@@ -344,7 +339,7 @@ SELECT SUM(x) FROM tabela;
 
 ---
 
-## 6️⃣ OOP – podstawy i 4 filary
+## 6️. OOP – podstawy i 4 filary
 
   
 
@@ -396,23 +391,20 @@ s1.pokaz();
 
   
 
-### 4 Filary
+### 7. Filary
 
-| Nazwa             | Opis                                                |
-| ----------------- | --------------------------------------------------- |
-| **Abstrakcja**    | wydzielenie istotnych cech                          |
-| **Polimorfizm**   | różne zachowania tej samej nazwy                    |
-| **Dziedziczenie** | klasa potomna dziedziczy pola/metody                |
-| **Hermetyzacja**  | kontrola dostępu (`private`, `protected`, `public`) |
-
-
-  
+|Nazwa|Opis|
+|---|---|
+|**Abstrakcja**|wydzielenie istotnych cech obiektu|
+|**Polimorfizm**|różne zachowania tej samej metody lub klasy|
+|**Dziedziczenie**|klasa potomna przejmuje pola i metody klasy bazowej|
+|**Hermetyzacja**|ukrywanie danych i kontrola dostępu (`private`, `protected`, `public`)|
 
 ---
 
   
 
-## 7️⃣ Wnioski
+## 8. Wnioski
 
   
 
