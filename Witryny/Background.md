@@ -1,60 +1,93 @@
+# Właściwości CSS związane z tłem — przykłady
 
-## Podstawowe właściwości
+Poniżej znajdziesz przykłady wszystkich podstawowych właściwości CSS dotyczących tła w formacie Markdown dla Obsidiana.
 
-- **background-color** – ustawia kolor tła elementu. 
-<div style>
-	Hello
-</div>
-    
-- **background-image** – pozwala dodać obraz jako tło (np. `url("img.png")`).
-    
-- **background-repeat** – określa sposób powtarzania obrazu tła (`repeat`, `no-repeat`, `repeat-x`, `repeat-y`).
-    
-- **background-position** – definiuje pozycję tła (np. `center`, `top right`, wartości procentowe lub piksele).
-    
-- **background-size** – kontroluje rozmiar obrazu tła (`auto`, `cover`, `contain`, wartości jednostkowe).
-    
-- **background-attachment** – opisuje, czy tło ma przewijać się z treścią (`scroll`) czy być nieruchome (`fixed`, `local`).
-    
+---
 
-## Właściwości zaawansowane
-
-- **background-origin** – określa obszar, na podstawie którego ustawiana jest pozycja tła (`padding-box`, `border-box`, `content-box`).
-    
-- **background-clip** – określa obszar, w którym tło jest widoczne (`border-box`, `padding-box`, `content-box`, `text`).
-    
-- **background-blend-mode** – pozwala na łączenie warstw tła podobnie jak tryby mieszania w programach graficznych (np. `multiply`, `screen`).
-    
-
-## Skrótowa właściwość `background`
-
-Można ustawić wiele właściwości jednocześnie:
+## background-color
+**Opis:** Ustawia kolor tła.
 
 ```css
-background: url("img.png") no-repeat center/cover fixed;
+background-color: lightblue;
 ```
+<div style="background-color: lightblue; height:100px; border:1px solid #ccc"></div>
 
-Kolejność parametrów:
+---
 
-1. background-color
-    
-2. background-image
-    
-3. background-repeat
-    
-4. background-attachment
-    
-5. background-position / background-size
-    
-
-## Tła wielowarstwowe
-
-Możesz łączyć wiele obrazów tła:
+## background-image
+**Opis:** Ustawia obraz jako tło.
 
 ```css
-background-image: url("warstwa1.png"), url("warstwa2.svg");
-background-position: center, top left;
-background-size: cover, 50px;
+background-image: url('https://picsum.photos/300');
 ```
+<div style="background-image: url('https://picsum.photos/300'); height:100px; border:1px solid #ccc"></div>
 
-Warstwy są renderowane od góry do dołu (pierwsza jest najwyżej).
+---
+
+## background-repeat
+**Opis:** Określa powtarzanie obrazu.
+
+```css
+background-repeat: no-repeat;
+```
+<div style="background-image: url('https://picsum.photos/100'); background-repeat: no-repeat; height:100px; border:1px solid #ccc"></div>
+
+---
+
+## background-position
+**Opis:** Określa położenie obrazu.
+
+```css
+background-position: center;
+```
+<div style="background-image: url('https://picsum.photos/200'); background-position: center; height:100px; border:1px solid #ccc"></div>
+
+---
+
+## background-size
+**Opis:** Określa rozmiar obrazu tła.
+
+```css
+background-size: cover;
+```
+<div style="background-image: url('https://picsum.photos/300'); background-size: cover; height:100px; border:1px solid #ccc"></div>
+
+---
+
+## background-attachment
+**Opis:** Określa czy tło przewija się ze stroną.
+
+```css
+background-attachment: fixed;
+```
+<div style="background-image: url('https://picsum.photos/400'); background-size: cover; background-attachment: fixed; height:100px; border:1px solid #ccc"></div>
+
+---
+
+## background-clip
+**Opis:** Określa obszar wyświetlania tła.
+
+```css
+background-clip: content-box;
+```
+<div style="padding:20px; background-image:url('https://picsum.photos/200'); background-clip: content-box; border:10px solid black; height:100px"></div>
+
+---
+
+## background-origin
+**Opis:** Punkt odniesienia tła.
+
+```css
+background-origin: border-box;
+```
+<div style="padding:20px; border:10px solid black; background-image:url('https://picsum.photos/250'); background-origin: border-box; height:100px"></div>
+
+---
+
+## background-blend-mode
+**Opis:** Jak mieszają się warstwy tła.
+
+```css
+background-blend-mode: multiply;
+```
+<div style="background-image: url('https://picsum.photos/300'); background-color: red; background-blend-mode: multiply; height:100px"></div>
