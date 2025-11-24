@@ -1,4 +1,4 @@
-# Właściwości CSS związane z tłem — przykłady (Obsidian)
+
 
 Rozbudowany przewodnik po właściwościach CSS tła z przykładami i wyjaśnieniem wartości.
 
