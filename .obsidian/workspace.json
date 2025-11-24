@@ -62,6 +62,23 @@
               "icon": "lucide-file",
               "title": "Background"
             }
+          },
+          {
+            "id": "a2acfeda77934464",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Untitled.canvas",
+                "viewState": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 0
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "Untitled"
+            }
           }
         ],
         "currentTab": 3
@@ -117,7 +134,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -206,7 +224,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 313.5
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -217,23 +235,24 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "obsidian-importer:Open Importer": false
     }
   },
   "active": "6076810e589d5e11",
   "lastOpenFiles": [
     "Witryny/Witryny.md",
-    "Witryny/Background.md",
     "PAIP/Wprowadzenie Do programowania.md",
-    "Witryny",
+    "Untitled.canvas",
+    "Witryny/Background.md",
     "Szkoła.md",
+    "Witryny",
     "PAIP/Definicje/Pseudokod.md",
     "Język Angielski/Język Angielski.md",
     "PAIP/PAIP.md",
     "Język Niemiecki/Odmiana Czasowników.md",
     "Język Niemiecki/Język Niemiecki.md",
     "Present Perfect.md",
-    "Untitled.canvas",
     "Język Polski/Biblia/Rozdziały/Symbolika Księgi Apokalipsy.md",
     "Język Niemiecki",
     "Język Polski/Biblia/Biblia.md",
@@ -251,7 +270,6 @@
     "PAIP/Definicje/Schemat blokowy.md",
     "PAIP/Definicje/Drzewo wyrażeń.md",
     "PAIP/Definicje/Lista kroków.md",
-    "Język Polski/Biblia/Rozdziały/Untitled.md",
     "Język Polski/Biblia/Rozdziały",
     "Język Polski/Biblia",
     "Język Polski",
