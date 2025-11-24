@@ -53,10 +53,14 @@
             "id": "a2acfeda77934464",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Witryny/Background.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Background"
             }
           }
         ],
@@ -218,12 +222,12 @@
       "webpage-html-export:Export as HTML": false
     }
   },
-  "active": "a59a298f7640290c",
+  "active": "a2acfeda77934464",
   "lastOpenFiles": [
+    "Witryny/Witryny.md",
     "index.html",
     "Background.html",
     "Witryny/Background.md",
-    "Witryny/Witryny.md",
     "Szkoła.md",
     "PAIP/Wprowadzenie Do programowania.md",
     "2025-11-24.md",
@@ -259,7 +263,6 @@
     "Język Polski/Biblia",
     "Język Polski",
     "PAIP/Definicje",
-    "Untitled.base",
-    "PAIP"
+    "Untitled.base"
   ]
 }
