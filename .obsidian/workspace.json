@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Witryny/Formularze CSS-HTML.md",
+                "file": "Witryny/Tabele CSS-HTML.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Formularze CSS-HTML"
+              "title": "Tabele CSS-HTML"
             }
           }
         ],
@@ -225,7 +225,7 @@
   "active": "a2acfeda77934464",
   "lastOpenFiles": [
     "Witryny/Background.md",
-    "Witryny/Formularze CSS-HTML.md",
+    "Witryny/Tabele CSS-HTML.md",
     "Witryny/Witryny.md",
     "index.html",
     "Background.html",
