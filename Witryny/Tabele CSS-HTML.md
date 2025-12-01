@@ -244,12 +244,12 @@ td {
 <div style="margin:10px 0; border-radius:12px; overflow:hidden;">
 <table style="border-collapse:collapse; width:100%;">
 <tr>
-<td style="border:1px solid white; padding:8px;" colspan="2">colspan = 2</td>
-<td style="border:1px solid white; padding:8px;background:lightblue;color:black;" rowspan="2">rowspan = 2</td>
+<td style="border:1px solid white; padding:8px;vertical-align:middle;text-align:center;" colspan="2">colspan = 2</td>
+<td style="border:1px solid white; padding:8px;vertical-align:middle;text-align:center;" rowspan="2">rowspan = 2</td>
 </tr>
 <tr>
-<td style="border:1px solid white; padding:8px;">A</td>
-<td style="border:1px solid white; padding:8px;">B</td>
+<td style="border:1px solid white; padding:8px;vertical-align:middle;text-align:center;">A</td>
+<td style="border:1px solid white; padding:8px;vertical-align:middle;text-align:center;">B</td>
 </tr>
 </table>
 </div>

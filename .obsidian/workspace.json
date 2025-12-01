@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Witryny/Tabele CSS-HTML.md",
+                "file": "Witryny/Formularze CSS-HTML.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Tabele CSS-HTML"
+              "title": "Formularze CSS-HTML"
             }
           }
         ],
@@ -117,8 +117,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -226,8 +225,9 @@
   },
   "active": "a2acfeda77934464",
   "lastOpenFiles": [
-    "Untitled.canvas",
     "Witryny/Tabele CSS-HTML.md",
+    "Witryny/Formularze CSS-HTML.md",
+    "Untitled.canvas",
     "Witryny/Witryny.md",
     "Szkoła.md",
     "Witryny/Background.md",
