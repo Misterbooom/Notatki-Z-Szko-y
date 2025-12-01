@@ -11,9 +11,6 @@
 - `<select>` – lista rozwijana  
 - `<option>` – element listy w `<select>`  
 - `<button>` – przycisk formularza  
-- `<fieldset>` – grupa powiązanych pól  
-- `<legend>` – tytuł grupy `<fieldset>`  
-- `<datalist>` – lista podpowiedzi dla `<input>`  
 
 ---
 
@@ -89,48 +86,80 @@
 </form>
 ```
 
-<div style="margin:10px 0; border-radius:12px; overflow:hidden; padding:16px; max-width:500px;">
-<form style="display:flex; flex-direction:column; gap:8px;">
-  <label for="username">Nazwa użytkownika:</label>
-  <input type="text" id="username" name="username" style="padding:6px; border-radius:4px; border:1px solid #aaa;">
+<div style="margin:10px 0; border-radius:12px; overflow:hidden; padding:16px; border:1px solid #ccc; max-width:500px;">
+<form>
+  <label for="username">Nazwa użytkownika:</label><br>
+  <input type="text" id="username" name="username" style="width:100%; padding:6px; margin-bottom:0; border-radius:4px; border:1px solid #aaa;">
 
-  <label for="password">Hasło:</label>
-  <input type="password" id="password" name="password" style="padding:6px; border-radius:4px; border:1px solid #aaa;">
+  <label for="password">Hasło:</label><br>
+  <input type="password" id="password" name="password" style="width:100%; padding:6px; margin-bottom:0; border-radius:4px; border:1px solid #aaa;">
 
-  <label for="email">E-mail:</label>
-  <input type="email" id="email" name="email" style="padding:6px; border-radius:4px; border:1px solid #aaa;">
+  <label for="email">E-mail:</label><br>
+  <input type="email" id="email" name="email" style="width:100%; padding:6px; margin-bottom:0; border-radius:4px; border:1px solid #aaa;">
 
-  <label for="age">Wiek:</label>
-  <input type="number" id="age" name="age" style="padding:6px; border-radius:4px; border:1px solid #aaa;">
+  <label for="age">Wiek:</label><br>
+  <input type="number" id="age" name="age" style="width:100%; padding:6px; margin-bottom:0; border-radius:4px; border:1px solid #aaa;">
 
-  <label>Płeć:</label>
-  <div>
-    <input type="radio" name="gender" value="male"> Mężczyzna
-    <input type="radio" name="gender" value="female"> Kobieta
-  </div>
+  <label>Płeć:</label><br>
+  <input type="radio" name="gender" value="male"> Mężczyzna
+  <input type="radio" name="gender" value="female"> Kobieta
+  <br><br>
 
-  <label for="subscribe">Subskrybuj newsletter:</label>
+  <label for="subscribe">Subskrybuj newsletter:</label><br>
   <input type="checkbox" id="subscribe" name="subscribe">
+  <br><br>
 
-  <label for="favcolor">Ulubiony kolor:</label>
-  <input type="color" id="favcolor" name="favcolor">
+  <label for="favcolor">Ulubiony kolor:</label><br>
+  <input type="color" id="favcolor" name="favcolor" style="margin-bottom:0;">
+  <br>
 
-  <label for="bio">O sobie:</label>
-  <textarea id="bio" name="bio" style="padding:6px; border-radius:4px; border:1px solid #aaa;"></textarea>
+  <label for="bio">O sobie:</label><br>
+  <textarea id="bio" name="bio" style="width:100%; padding:6px; margin-bottom:0; border-radius:4px; border:1px solid #aaa;"></textarea>
 
-  <label for="country">Kraj:</label>
-  <select id="country" name="country" style="padding:6px; border-radius:4px; border:1px solid #aaa;">
+  <label for="country">Kraj:</label><br>
+  <select id="country" name="country" style="width:100%; padding:6px; margin-bottom:0; border-radius:4px; border:1px solid #aaa;">
     <option value="pl">Polska</option>
     <option value="de">Niemcy</option>
     <option value="us">USA</option>
   </select>
 
-  <label for="resume">Dołącz CV:</label>
-  <input type="file" id="resume" name="resume">
+  <label for="resume">Dołącz CV:</label><br>
+  <input type="file" id="resume" name="resume" style="margin-bottom:0;">
 
-  <div style="display:flex; gap:8px; margin-top:8px;">
-    <input type="submit" value="Wyślij" style="padding:6px 12px; background:#4CAF50; color:white; border:none; border-radius:4px; cursor:pointer;">
-    <input type="reset" value="Wyczyść" style="padding:6px 12px; background:#f44336; color:white; border:none; border-radius:4px; cursor:pointer;">
-  </div>
+  <input type="submit" value="Wyślij" style="padding:6px 12px; background:#4CAF50; color:white; border:none; border-radius:4px; cursor:pointer; margin-right:8px;">
+  <input type="reset" value="Wyczyść" style="padding:6px 12px; background:#f44336; color:white; border:none; border-radius:4px; cursor:pointer;">
 </form>
 </div>
+
+
+
+## `<select>` — lista rozwijana
+
+- `<select>` – tworzy rozwijaną listę opcji
+- `<option>` – pojedyncza opcja w liście
+- `<optgroup>` – grupuje opcje w sekcje (opcjonalnie)
+- Atrybuty `<select>`:
+    - `name` – nazwa pola formularza
+    - `id` – identyfikator do powiązania z `<label>`
+    - `size` – liczba widocznych opcji (jeśli `multiple` lub bez rozwijania)
+
+---
+
+### Przykład `<select>`
+
+```html
+<label for="country">Wybierz kraj:</label>
+<select id="country" name="country">
+  <option value="pl">Polska</option>
+  <option value="de">Niemcy</option>
+  <option value="us">USA</option>
+</select>
+```
+
+
+<select id="country" name="country">
+  <option value="pl">Polska</option>
+  <option value="de">Niemcy</option>
+  <option value="us">USA</option>
+</select>
+
