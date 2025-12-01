@@ -4,5 +4,6 @@
   "obsidian-importer",
   "obsidian-enhancing-export",
   "webpage-html-export",
-  "canvas-node-screenshot"
+  "canvas-node-screenshot",
+  "vscode-editor"
 ]

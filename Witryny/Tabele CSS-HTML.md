@@ -35,18 +35,18 @@
 <table style="width:100%; border-collapse:collapse;">
 <thead style="background:bisque;">
 <tr>
-<th style="padding:8px; border:1px solid #ccc; color:black;">Imię</th>
-<th style="padding:8px; border:1px solid #ccc; color:black;">Wiek</th>
+<th style="padding:8px; border:1px solid white; color:black;">Imię</th>
+<th style="padding:8px; border:1px solid white; color:black;">Wiek</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="padding:8px; border:1px solid #ccc;">Ada</td>
-<td style="padding:8px; border:1px solid #ccc;">24</td>
+<td style="padding:8px; border:1px solid white;">Ada</td>
+<td style="padding:8px; border:1px solid white;">24</td>
 </tr>
 <tr>
-<td style="padding:8px; border:1px solid #ccc;">Kamil</td>
-<td style="padding:8px; border:1px solid #ccc;">30</td>
+<td style="padding:8px; border:1px solid white;">Kamil</td>
+<td style="padding:8px; border:1px solid white;">30</td>
 </tr>
 </tbody>
 </table>
@@ -68,14 +68,14 @@
 
 ### Przykład skrótu
 ```css
-border: 1px solid #ccc;
+border: 1px solid white;
 ```
 
 ### Rozpisanie skrótu
 ```css
 border-width: 1px;
 border-style: solid;
-border-color: #ccc;
+border-color: white;
 ```
 
 ---
@@ -85,18 +85,18 @@ border-color: #ccc;
 <table style="width:100%; border-collapse:collapse;">
 <thead style="background:bisque;">
 <tr>
-<th style="padding:8px; border:1px solid #ccc; color:black;">A</th>
-<th style="padding:8px; border:1px solid #ccc; color:black;">B</th>
+<th style="padding:8px; border:1px solid white; color:black;">A</th>
+<th style="padding:8px; border:1px solid white; color:black;">B</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="padding:8px; border:1px solid #ccc;">1</td>
-<td style="padding:8px; border:1px solid #ccc;">2</td>
+<td style="padding:8px; border:1px solid white;">1</td>
+<td style="padding:8px; border:1px solid white;">2</td>
 </tr>
 <tr>
-<td style="padding:8px; border:1px solid #ccc;">3</td>
-<td style="padding:8px; border:1px solid #ccc;">4</td>
+<td style="padding:8px; border:1px solid white;">3</td>
+<td style="padding:8px; border:1px solid white;">4</td>
 </tr>
 </tbody>
 </table>
@@ -128,18 +128,18 @@ padding: 5px 10px 15px 20px;
 <table style="width:100%; border-collapse:collapse;">
 <thead style="background:bisque;">
 <tr>
-<th style="padding:0; border:1px solid #ccc; color:black;">Produkt</th>
-<th style="padding:0; border:1px solid #ccc; color:black;">Cena</th>
+<th style="padding:0; border:1px solid white; color:black;">Produkt</th>
+<th style="padding:0; border:1px solid white; color:black;">Cena</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="padding:0; border:1px solid #ccc;">Jabłko</td>
-<td style="padding:0; border:1px solid #ccc;">2 zł</td>
+<td style="padding:0; border:1px solid white;">Jabłko</td>
+<td style="padding:0; border:1px solid white;">2 zł</td>
 </tr>
 <tr>
-<td style="padding:0; border:1px solid #ccc;">Gruszka</td>
-<td style="padding:0; border:1px solid #ccc;">3 zł</td>
+<td style="padding:0; border:1px solid white;">Gruszka</td>
+<td style="padding:0; border:1px solid white;">3 zł</td>
 </tr>
 </tbody>
 </table>
@@ -152,18 +152,18 @@ padding: 5px 10px 15px 20px;
 <table style="width:100%; border-collapse:collapse;">
 <thead style="background:bisque;">
 <tr>
-<th style="padding:8px; border:1px solid #ccc; color:black;">Produkt</th>
-<th style="padding:8px; border:1px solid #ccc; color:black;">Cena</th>
+<th style="padding:8px; border:1px solid white; color:black;">Produkt</th>
+<th style="padding:8px; border:1px solid white; color:black;">Cena</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="padding:8px; border:1px solid #ccc;">Jabłko</td>
-<td style="padding:8px; border:1px solid #ccc;">2 zł</td>
+<td style="padding:8px; border:1px solid white;">Jabłko</td>
+<td style="padding:8px; border:1px solid white;">2 zł</td>
 </tr>
 <tr>
-<td style="padding:8px; border:1px solid #ccc;">Gruszka</td>
-<td style="padding:8px; border:1px solid #ccc;">3 zł</td>
+<td style="padding:8px; border:1px solid white;">Gruszka</td>
+<td style="padding:8px; border:1px solid white;">3 zł</td>
 </tr>
 </tbody>
 </table>
@@ -183,18 +183,18 @@ padding: 5px 10px 15px 20px;
 <table style="width:100%; border-collapse:collapse;">
 <thead style="background:bisque;">
 <tr>
-<th style="padding:8px; border:1px solid #ccc; color:black;">Produkt</th>
-<th style="padding:8px; border:1px solid #ccc; color:black;">Cena</th>
+<th style="padding:8px; border:1px solid white; color:black;">Produkt</th>
+<th style="padding:8px; border:1px solid white; color:black;">Cena</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="padding:8px; border:1px solid #ccc;">Jabłko</td>
-<td style="padding:8px; border:1px solid #ccc;">2 zł</td>
+<td style="padding:8px; border:1px solid white;">Jabłko</td>
+<td style="padding:8px; border:1px solid white;">2 zł</td>
 </tr>
 <tr>
-<td style="padding:8px; border:1px solid #ccc;">Gruszka</td>
-<td style="padding:8px; border:1px solid #ccc;">3 zł</td>
+<td style="padding:8px; border:1px solid white;">Gruszka</td>
+<td style="padding:8px; border:1px solid white;">3 zł</td>
 </tr>
 </tbody>
 </table>
@@ -205,18 +205,18 @@ padding: 5px 10px 15px 20px;
 <table style="width:100%; border-collapse:separate;">
 <thead style="background:bisque;">
 <tr>
-<th style="padding:8px; border:1px solid #ccc; color:black;">Produkt</th>
-<th style="padding:8px; border:1px solid #ccc; color:black;">Cena</th>
+<th style="padding:8px; border:1px solid white; color:black;">Produkt</th>
+<th style="padding:8px; border:1px solid white; color:black;">Cena</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="padding:8px; border:1px solid #ccc;">Jabłko</td>
-<td style="padding:8px; border:1px solid #ccc;">2 zł</td>
+<td style="padding:8px; border:1px solid white;">Jabłko</td>
+<td style="padding:8px; border:1px solid white;">2 zł</td>
 </tr>
 <tr>
-<td style="padding:8px; border:1px solid #ccc;">Gruszka</td>
-<td style="padding:8px; border:1px solid #ccc;">3 zł</td>
+<td style="padding:8px; border:1px solid white;">Gruszka</td>
+<td style="padding:8px; border:1px solid white;">3 zł</td>
 </tr>
 </tbody>
 </table>
@@ -232,18 +232,6 @@ td {
 }
 ```
 
----
-
-## width & table-layout
-- `auto` – szerokości kolumn na podstawie treści  
-- `fixed` – równe kolumny  
-
-```css
-table {
-  width: 100%;
-  table-layout: fixed;
-}
-```
 
 ---
 
@@ -256,12 +244,12 @@ table {
 <div style="margin:10px 0; border-radius:12px; overflow:hidden;">
 <table style="border-collapse:collapse; width:100%;">
 <tr>
-<td style="border:1px solid #ccc; padding:8px;" colspan="2">colspan = 2</td>
-<td style="border:1px solid #ccc; padding:8px;" rowspan="2">rowspan = 2</td>
+<td style="border:1px solid white; padding:8px;" colspan="2">colspan = 2</td>
+<td style="border:1px solid white; padding:8px;background:lightblue;color:black;" rowspan="2">rowspan = 2</td>
 </tr>
 <tr>
-<td style="border:1px solid #ccc; padding:8px;">A</td>
-<td style="border:1px solid #ccc; padding:8px;">B</td>
+<td style="border:1px solid white; padding:8px;">A</td>
+<td style="border:1px solid white; padding:8px;">B</td>
 </tr>
 </table>
 </div>
@@ -281,25 +269,25 @@ border-radius: 10px 0 10px 0; /* góra-lewo, góra-prawo, dół-prawo, dół-lew
 ---
 
 ### Przykład tabeli z zaokrąglonymi rogami
-<div style="margin:10px 0; border-radius:12px; overflow:hidden;">
+<div style="margin:10px 0; border-radius:20px; overflow:hidden;">
 <table style="width:100%; border-collapse:collapse; border-radius:12px;">
 <thead style="background:bisque;">
 <tr>
-<th style="padding:8px; border:1px solid #ccc;color:black;">Produkt</th>
-<th style="padding:8px; border:1px solid #ccc;color:black;">Cena</th>
-<th style="padding:8px; border:1px solid #ccc;color:black;">Zdjęcie</th>
+<th style="padding:8px; border:1px solid white;color:black;">Produkt</th>
+<th style="padding:8px; border:1px solid white;color:black;">Cena</th>
+<th style="padding:8px; border:1px solid white;color:black;">Zdjęcie</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="padding:8px; border:1px solid #ccc;">Jabłko</td>
-<td style="padding:8px; border:1px solid #ccc;">2 zł</td>
-<td style="padding:8px; border:1px solid #ccc;"><img src="https://picsum.photos/50" alt="jabłko" style="border-radius:6px;"></td>
+<td style="padding:8px; border:1px solid white;">Jabłko</td>
+<td style="padding:8px; border:1px solid white;">2 zł</td>
+<td style="padding:8px; border:1px solid white;"><img src="https://picsum.photos/50" alt="jabłko" style="border-radius:6px;"></td>
 </tr>
 <tr>
-<td style="padding:8px; border:1px solid #ccc;">Gruszka</td>
-<td style="padding:8px; border:1px solid #ccc;">3 zł</td>
-<td style="padding:8px; border:1px solid #ccc;"><img src="https://picsum.photos/50?2" alt="gruszka" style="border-radius:6px;"></td>
+<td style="padding:8px; border:1px solid white;">Gruszka</td>
+<td style="padding:8px; border:1px solid white;">3 zł</td>
+<td style="padding:8px; border:1px solid white;"><img src="https://picsum.photos/50?2" alt="gruszka" style="border-radius:6px;"></td>
 </tr>
 </tbody>
 </table>
@@ -312,21 +300,21 @@ border-radius: 10px 0 10px 0; /* góra-lewo, góra-prawo, dół-prawo, dół-lew
 <table style="width:100%; border-collapse:collapse; border-radius:20px 5px 20px 5px;">
 <thead style="background:lightblue;">
 <tr>
-<th style="padding:8px; border:1px solid #333;color:black;">Produkt</th>
-<th style="padding:8px; border:1px solid #333;color:black;">Cena</th>
-<th style="padding:8px; border:1px solid #333;color:black;">Zdjęcie</th>
+<th style="padding:8px; border:1px solid white;color:black;">Produkt</th>
+<th style="padding:8px; border:1px solid white;color:black;">Cena</th>
+<th style="padding:8px; border:1px solid white;color:black;">Zdjęcie</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="padding:8px; border:1px solid #333;">Banana</td>
-<td style="padding:8px; border:1px solid #333;">4 zł</td>
-<td style="padding:8px; border:1px solid #333;"><img src="https://picsum.photos/50?3" alt="banan" style="border-radius:10px;"></td>
+<td style="padding:8px; border:1px solid white;">Banana</td>
+<td style="padding:8px; border:1px solid white;">4 zł</td>
+<td style="padding:8px; border:1px solid white;"><img src="https://picsum.photos/50?3" alt="banan" style="border-radius:10px;"></td>
 </tr>
 <tr>
-<td style="padding:8px; border:1px solid #333;">Winogrono</td>
-<td style="padding:8px; border:1px solid #333;">5 zł</td>
-<td style="padding:8px; border:1px solid #333;"><img src="https://picsum.photos/50?4" alt="winogrono" style="border-radius:10px;"></td>
+<td style="padding:8px; border:1px solid white;">Winogrono</td>
+<td style="padding:8px; border:1px solid white;">5 zł</td>
+<td style="padding:8px; border:1px solid white;"><img src="https://picsum.photos/50?4" alt="winogrono" style="border-radius:10px;"></td>
 </tr>
 </tbody>
 </table>

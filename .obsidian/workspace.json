@@ -117,7 +117,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -219,24 +220,25 @@
       "bases:Create new base": false,
       "obsidian-git:Open Git source control": false,
       "obsidian-importer:Open Importer": false,
-      "webpage-html-export:Export as HTML": false
+      "webpage-html-export:Export as HTML": false,
+      "vscode-editor:Create Code File": false
     }
   },
   "active": "a2acfeda77934464",
   "lastOpenFiles": [
-    "Witryny/Background.md",
+    "Untitled.canvas",
     "Witryny/Tabele CSS-HTML.md",
     "Witryny/Witryny.md",
+    "Szkoła.md",
+    "Witryny/Background.md",
     "index.html",
     "Background.html",
-    "Szkoła.md",
     "PAIP/Wprowadzenie Do programowania.md",
     "2025-11-24.md",
     "Untitled 4.canvas",
     "Untitled 3.canvas",
     "Untitled 2.canvas",
     "Untitled 1.canvas",
-    "Untitled.canvas",
     "Witryny",
     "PAIP/Definicje/Pseudokod.md",
     "Język Angielski/Język Angielski.md",
@@ -259,7 +261,6 @@
     "Język Polski/Biblia/Rozdziały/Znaczenie Biblii w kulturze.md",
     "Język Polski/Język Polski.md",
     "PAIP/Definicje/Schemat blokowy.md",
-    "PAIP/Definicje/Drzewo wyrażeń.md",
     "Język Polski/Biblia/Rozdziały",
     "Język Polski/Biblia",
     "Język Polski",
