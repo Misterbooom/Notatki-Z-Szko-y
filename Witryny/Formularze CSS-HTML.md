@@ -51,7 +51,7 @@ W CSS skrót `border` składa się z **trzech wartości**:
 2. **border-style** – styl obramowania  
 3. **border-color** – kolor obramowania  
 
-### Przykład składni skróconej:
+### Przykład skrótu:
 ```css
 border: 1px solid white;
 ```
@@ -112,12 +112,6 @@ table {
 
 ---
 
-## padding w komórkach
-```css
-td, th {
-  padding: 10px;
-}
-```
 
 ---
 
@@ -207,27 +201,5 @@ tr:nth-child(even) {
 
 ---
 
-## Tabele responsywne
-
-**Opis:** Dodaje przewijanie poziome dla małych ekranów.
-
-```html
-<div class="table-wrapper">
-  <table>...</table>
-</div>
-```
-
-```css
-.table-wrapper {
-  overflow-x: auto;
-}
-```
-
-<div style="overflow-x:auto; border:1px solid #ccc; border-radius:8px; padding:4px; margin:10px 0;">
-<table style="border-collapse:collapse; min-width:500px;">
-<tr><th style="padding:8px; border:1px solid #ccc;">Kol1</th><th style="padding:8px; border:1px solid #ccc;">Kol2</th><th style="padding:8px; border:1px solid #ccc;">Kol3</th><th style="padding:8px; border:1px solid #ccc;">Kol4</th></tr>
-<tr><td style="padding:8px; border:1px solid #ccc;">A</td><td style="padding:8px; border:1px solid #ccc;">B</td><td style="padding:8px; border:1px solid #ccc;">C</td><td style="padding:8px; border:1px solid #ccc;">D</td></tr>
-</table>
-</div>
 
 ---
