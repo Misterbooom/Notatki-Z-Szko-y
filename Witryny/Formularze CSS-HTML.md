@@ -41,7 +41,7 @@
 
 ---
 
-# 🎨 Stylowanie tabel w CSS
+#  Stylowanie tabel w CSS
 
 ## border
 **Opis:** Dodaje obramowanie tabeli, wierszy lub komórek.  
@@ -53,47 +53,93 @@ W CSS skrót `border` składa się z **trzech wartości**:
 
 ### Przykład skrótu:
 ```css
-border: 1px solid white;
+border: 1px solid #ccc;
 ```
 
 ### Rozpisanie skrótu na właściwości:
 ```css
 border-width: 1px;
 border-style: solid;
-border-color: white;
+border-color: #ccc;
 ```
 
 ---
 
 ### Przykład tabeli z obramowaniem
-
-```css
-table, td, th {
-  border: 1px solid white;
-}
-```
-
 <div style="margin:10px 0; border-radius:12px; overflow:hidden;">
 <table style="width:100%; border-collapse:collapse;">
 <thead>
 <tr style="background:bisque;">
-<th style="padding:8px;color:black; border:1px solid white;">A</th>
-<th style="padding:8px;color:black; border:1px solid white;">B</th>
+<th style="padding:8px;color:black; border:1px solid #ccc;">A</th>
+<th style="padding:8px;color:black; border:1px solid #ccc;">B</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="padding:8px; border:1px solid white;">1</td>
-<td style="padding:8px; border:1px solid white;">2</td>
+<td style="padding:8px; border:1px solid #ccc;">1</td>
+<td style="padding:8px; border:1px solid #ccc;">2</td>
 </tr>
 <tr>
-<td style="padding:8px; border:1px solid white;">3</td>
-<td style="padding:8px; border:1px solid white;">4</td>
+<td style="padding:8px; border:1px solid #ccc;">3</td>
+<td style="padding:8px; border:1px solid #ccc;">4</td>
 </tr>
 </tbody>
 </table>
 </div>
 
+---
+
+## padding
+**Opis:** Ustawia **wewnętrzny odstęp** między krawędzią komórki a jej zawartością.  
+Ma wpływ na czytelność tabel.
+
+### Skrót `padding`
+`padding` może mieć **1–4 wartości**, które odpowiadają kolejno:
+
+1 wartość → wszystkie strony  
+```css
+padding: 8px;
+```
+
+2 wartości → góra/dół, lewo/prawo  
+```css
+padding: 8px 16px;
+```
+
+4 wartości → góra, prawo, dół, lewo  
+```css
+padding: 5px 10px 15px 20px;
+```
+
+---
+
+### Tabela bez paddingu
+<div style="margin:10px 0; border-radius:12px; overflow:hidden;">
+<table style="width:100%; border-collapse:collapse;">
+<thead style="background:bisque;">
+<tr><th style="padding:0; border:1px solid #ccc;color:black;">Produkt</th><th style="padding:0; border:1px solid #ccc;color:black;">Cena</th></tr>
+</thead>
+<tbody>
+<tr><td style="padding:0; border:1px solid #ccc;">Jabłko</td><td style="padding:0; border:1px solid #ccc;">2 zł</td></tr>
+<tr><td style="padding:0; border:1px solid #ccc;">Gruszka</td><td style="padding:0; border:1px solid #ccc;">3 zł</td></tr>
+</tbody>
+</table>
+</div>
+
+---
+
+### Tabela z paddingiem
+<div style="margin:10px 0; border-radius:12px; overflow:hidden;">
+<table style="width:100%; border-collapse:collapse;">
+<thead style="background:bisque;">
+<tr><th style="padding:8px; border:1px solid #ccc;color:black;">Produkt</th><th style="padding:8px; border:1px solid #ccc;color:black;">Cena</th></tr>
+</thead>
+<tbody>
+<tr><td style="padding:8px; border:1px solid #ccc;">Jabłko</td><td style="padding:8px; border:1px solid #ccc;">2 zł</td></tr>
+<tr><td style="padding:8px; border:1px solid #ccc;">Gruszka</td><td style="padding:8px; border:1px solid #ccc;">3 zł</td></tr>
+</tbody>
+</table>
+</div>
 
 ---
 
@@ -109,45 +155,42 @@ table {
   border-collapse: collapse;
 }
 ```
+### Z collapse: 
+<div style="margin:10px 0; border-radius:12px; overflow:hidden;">
+<table style="width:100%; border-collapse:collapse;">
+<thead style="background:bisque;">
+<tr><th style="padding:8px; border:1px solid #ccc;color:black;">Produkt</th><th style="padding:8px; border:1px solid #ccc;color:black;">Cena</th></tr>
+</thead>
+<tbody>
+<tr><td style="padding:8px; border:1px solid #ccc;">Jabłko</td><td style="padding:8px; border:1px solid #ccc;">2 zł</td></tr>
+<tr><td style="padding:8px; border:1px solid #ccc;">Gruszka</td><td style="padding:8px; border:1px solid #ccc;">3 zł</td></tr>
+</tbody>
+</table>
+</div>
 
----
+### Z separate
+<div style="margin:10px 0; border-radius:12px; overflow:hidden;">
+<table style="width:100%; border-collapse:separate;">
+<thead style="background:bisque;">
+<tr><th style="padding:8px; border:1px solid #ccc;color:black;">Produkt</th><th style="padding:8px; border:1px solid #ccc;color:black;">Cena</th></tr>
+</thead>
+<tbody>
+<tr><td style="padding:8px; border:1px solid #ccc;">Jabłko</td><td style="padding:8px; border:1px solid #ccc;">2 zł</td></tr>
+<tr><td style="padding:8px; border:1px solid #ccc;">Gruszka</td><td style="padding:8px; border:1px solid #ccc;">3 zł</td></tr>
+</tbody>
+</table>
+</div>
 
 
 ---
 
 ## text-align & vertical-align
-
 ```css
 td {
   text-align: center;
   vertical-align: middle;
 }
 ```
-
----
-
-## background-color dla wierszy i komórek
-```css
-th {
-  background-color: #e0e0e0;
-}
-
-tr:nth-child(even) {
-  background-color: #f9f9f9;
-}
-```
-
-<div style="margin:10px 0; border-radius:12px; overflow:hidden;">
-<table style="width:100%; border-collapse:collapse;">
-<thead>
-<tr style="background:bisque;"><th style="padding:8px;color:black; border:1px solid #ccc;">Produkt</th><th style="padding:8px;color:black; border:1px solid #ccc;">Cena</th></tr>
-</thead>
-<tbody>
-<tr style=""><td style="padding:8px; border:1px solid #ccc;">Jabłko</td><td style="padding:8px; border:1px solid #ccc;">2 zł</td></tr>
-<tr style=""><td style="padding:8px; border:1px solid #ccc;">Gruszka</td><td style="padding:8px; border:1px solid #ccc;">3 zł</td></tr>
-</tbody>
-</table>
-</div>
 
 ---
 
@@ -167,7 +210,6 @@ table {
 ---
 
 ## colspan & rowspan
-
 ```html
 <td colspan="2">Połączone w poziomie</td>
 <td rowspan="2">Połączone w pionie</td>
@@ -185,21 +227,3 @@ table {
 </tr>
 </table>
 </div>
-
----
-
-## Zebra stripes
-
-```css
-tr:nth-child(odd) {
-  background-color: #fafafa;
-}
-tr:nth-child(even) {
-  background-color: #eaeaea;
-}
-```
-
----
-
-
----
