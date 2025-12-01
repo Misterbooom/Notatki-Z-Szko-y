@@ -43,21 +43,57 @@
 
 # 🎨 Stylowanie tabel w CSS
 
-## border:
-**Opis:** Dodaje obramowanie tabeli lub komórek.
+## border
+**Opis:** Dodaje obramowanie tabeli, wierszy lub komórek.  
+W CSS skrót `border` składa się z **trzech wartości**:
+
+1. **border-width** – grubość obramowania  
+2. **border-style** – styl obramowania  
+3. **border-color** – kolor obramowania  
+
+### Przykład składni skróconej:
+```css
+border: 1px solid white;
+```
+
+### Rozpisanie skrótu na właściwości:
+```css
+border-width: 1px;
+border-style: solid;
+border-color: white;
+```
+
+---
+
+### Przykład tabeli z obramowaniem
 
 ```css
 table, td, th {
-  border: 1px solid #333;
+  border: 1px solid white;
 }
 ```
 
 <div style="margin:10px 0; border-radius:12px; overflow:hidden;">
 <table style="width:100%; border-collapse:collapse;">
-<tr><th style="border:1px solid white; padding:8px;">A</th><th style="border:1px solid white; padding:8px;">B</th></tr>
-<tr><td style="border:1px solid white; padding:8px;">1</td><td style="border:1px solid white; padding:8px;">2</td></tr>
+<thead>
+<tr style="background:bisque;">
+<th style="padding:8px;color:black; border:1px solid white;">A</th>
+<th style="padding:8px;color:black; border:1px solid white;">B</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="padding:8px; border:1px solid white;">1</td>
+<td style="padding:8px; border:1px solid white;">2</td>
+</tr>
+<tr>
+<td style="padding:8px; border:1px solid white;">3</td>
+<td style="padding:8px; border:1px solid white;">4</td>
+</tr>
+</tbody>
 </table>
 </div>
+
 
 ---
 
@@ -110,11 +146,11 @@ tr:nth-child(even) {
 <div style="margin:10px 0; border-radius:12px; overflow:hidden;">
 <table style="width:100%; border-collapse:collapse;">
 <thead>
-<tr style="background:#e0e0e0;"><th style="padding:8px; border:1px solid #ccc;">Produkt</th><th style="padding:8px; border:1px solid #ccc;">Cena</th></tr>
+<tr style="background:bisque;"><th style="padding:8px;color:black; border:1px solid #ccc;">Produkt</th><th style="padding:8px;color:black; border:1px solid #ccc;">Cena</th></tr>
 </thead>
 <tbody>
-<tr style="background:#fff;"><td style="padding:8px; border:1px solid #ccc;">Jabłko</td><td style="padding:8px; border:1px solid #ccc;">2 zł</td></tr>
-<tr style="background:#f9f9f9;"><td style="padding:8px; border:1px solid #ccc;">Gruszka</td><td style="padding:8px; border:1px solid #ccc;">3 zł</td></tr>
+<tr style=""><td style="padding:8px; border:1px solid #ccc;">Jabłko</td><td style="padding:8px; border:1px solid #ccc;">2 zł</td></tr>
+<tr style=""><td style="padding:8px; border:1px solid #ccc;">Gruszka</td><td style="padding:8px; border:1px solid #ccc;">3 zł</td></tr>
 </tbody>
 </table>
 </div>
