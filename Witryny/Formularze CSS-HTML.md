@@ -163,3 +163,34 @@
   <option value="us">USA</option>
 </select>
 
+
+---
+
+## Co to jest `placeholder`?
+
+- Tekst podpowiedzi w polu formularza, **widoczny tylko gdy pole jest puste**  
+- Nie zastępuje wartości `value`  
+- Znika po wpisaniu danych  
+
+### Przykład
+```html
+<input type="text" placeholder="Wpisz nazwę użytkownika">
+```
+
+### Różnica między `placeholder` a `value`
+- `placeholder` – podpowiedź dla użytkownika, nie jest wysyłana jako wartość pola, znika po wpisaniu danych  
+- `value` – faktyczna wartość pola, wysyłana w formularzu  
+
+```html
+<input type="text" placeholder="Podpowiedź" value="Domyślna wartość">
+```
+
+<div style="margin:10px 0; border-radius:12px; overflow:hidden; padding:16px; border:1px solid #ccc; max-width:400px;">
+<label>Nazwa użytkownika z placeholder:</label><br>
+<input type="text" placeholder="Wpisz nazwę"style="width:100%; padding:6px; border-radius:4px; border:1px solid #aaa;">
+</div>
+
+<div style="margin:10px 0; border-radius:12px; overflow:hidden; padding:16px; border:1px solid #ccc; max-width:400px;">
+<label>Nazwa użytkownika z value:</label><br>
+<input type="text" value="Wpisz nazwę"style="width:100%; padding:6px; border-radius:4px; border:1px solid #aaa;">
+</div>
