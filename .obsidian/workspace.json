@@ -97,12 +97,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Historia/Sparta - państwo żołnierzy.md",
+                "file": "Historia/Ateny.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Sparta - państwo żołnierzy"
+              "title": "Ateny"
             }
           }
         ],
@@ -179,7 +179,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Historia/Sparta - państwo żołnierzy.md",
+                "file": "Historia/Ateny.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -189,7 +189,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Sparta - państwo żołnierzy"
+              "title": "Backlinks for Ateny"
             }
           },
           {
@@ -268,10 +268,10 @@
   "active": "d3f987e07c7da103",
   "lastOpenFiles": [
     "Historia/Polis Greckie.md",
+    "Historia/Sparta - państwo żołnierzy.md",
     "Historia/Historia.md",
     "Historia/Hellada i jej mieszkańcy.md",
     "Historia/Ateny.md",
-    "Historia/Sparta - państwo żołnierzy.md",
     "Witryny/Formularze CSS-HTML.md",
     "Historia",
     "Witryny/Tabele CSS-HTML.md",
