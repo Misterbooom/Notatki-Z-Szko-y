@@ -12,3 +12,4 @@
 >11. [[Charakterystyka i ocena postaw - Antygona i Ismena]]
 >12. [[Spór Antygony z Kreonem]]
 >13. [[Ocena postawy Kreona]]
+>14. [[Tragizm w Antygonie]]
