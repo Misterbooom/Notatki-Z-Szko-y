@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Język Polski/Antyk/Rozdziały/Mit o Prometeuszu i jego kulturowe znaczenie.md",
+                "file": "Język Polski/Antyk/Antyk.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Mit o Prometeuszu i jego kulturowe znaczenie"
+              "title": "Antyk"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Język Polski/Antyk/Rozdziały/Mit o Prometeuszu i jego kulturowe znaczenie.md",
+                "file": "Język Polski/Antyk/Antyk.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Mit o Prometeuszu i jego kulturowe znaczenie"
+              "title": "Backlinks for Antyk"
             }
           },
           {
@@ -180,10 +180,11 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "a58b8ce1f9fe8f21",
+  "active": "a59a298f7640290c",
   "lastOpenFiles": [
-    "Język Polski/Antyk/Rozdziały/W co wierzyli starożytni Grecy.md",
+    "Język Polski/Antyk/Rozdziały/Mit o Syzyfie oraz o Orfeuszu i Eurydyce..md",
     "Język Polski/Antyk/Rozdziały/Mit o Prometeuszu i jego kulturowe znaczenie.md",
+    "Język Polski/Antyk/Rozdziały/W co wierzyli starożytni Grecy.md",
     "Język Polski/Środki Stylistyczne.md",
     "Język Polski/Język Polski.md",
     "PAIP/Wprowadzenie Do programowania.md",
@@ -218,7 +219,6 @@
     "Witryny",
     "PAIP/Definicje/Pseudokod.md",
     "Język Angielski/Język Angielski.md",
-    "Język Niemiecki/Odmiana Czasowników.md",
     "Język Niemiecki",
     "Język Angielski",
     "Język Polski/Biblia/Rozdziały",
