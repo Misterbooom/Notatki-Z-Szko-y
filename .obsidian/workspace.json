@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Język Polski/Antyk/Antyk.md",
+                "file": "Język Polski/Antyk/Rozdziały/Pojedynek Achillesa z Hektorem.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Antyk"
+              "title": "Pojedynek Achillesa z Hektorem"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Język Polski/Antyk/Antyk.md",
+                "file": "Język Polski/Antyk/Rozdziały/Pojedynek Achillesa z Hektorem.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Antyk"
+              "title": "Backlinks for Pojedynek Achillesa z Hektorem"
             }
           },
           {
@@ -182,6 +182,9 @@
   },
   "active": "a58b8ce1f9fe8f21",
   "lastOpenFiles": [
+    "Język Polski/Antyk/Rozdziały/Mitologiczne i historyczne przyczyny wojny trojańskiej.md",
+    "Język Polski/Antyk/Rozdziały/Pojedynek Achillesa z Hektorem.md",
+    "Język Polski/Antyk/Antyk.md",
     "Język Polski/Antyk/Rozdziały/Miejsca wspólne w kulturze europejskiej.md",
     "Język Polski/Antyk/Rozdziały/Różne postawy wobec Boga – „Dekalog I” Krzysztofa Kieślowskiego.md",
     "Język Polski/Antyk/Rozdziały/Mit o Syzyfie oraz Orfeuszu i Eurydyce..md",
@@ -189,7 +192,6 @@
     "Język Polski/Antyk/Rozdziały/Mit o Prometeuszu i jego kulturowe znaczenie.md",
     "Język Polski/Biblia/Rozdziały/Księga Hioba.md",
     "Język Polski/Biblia/Biblia.md",
-    "Język Polski/Antyk/Antyk.md",
     "Język Polski/Środki Stylistyczne.md",
     "Język Polski/Język Polski.md",
     "PAIP/Wprowadzenie Do programowania.md",
@@ -210,10 +212,8 @@
     "Witryny/Background.md",
     "Untitled.canvas",
     "Witryny/Witryny.md",
-    "Szkoła.md",
     "index.html",
     "Background.html",
-    "2025-11-24.md",
     "Untitled 4.canvas",
     "Untitled 3.canvas",
     "Untitled 2.canvas",
