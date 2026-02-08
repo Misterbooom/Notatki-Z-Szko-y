@@ -11,3 +11,4 @@
 >10. [[Mit o rodzie Labdakidów]]
 >11. [[Charakterystyka i ocena postaw - Antygona i Ismena]]
 >12. [[Spór Antygony z Kreonem]]
+>13. [[Ocena postawy Kreona]]
