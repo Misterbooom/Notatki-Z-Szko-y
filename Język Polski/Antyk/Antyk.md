@@ -9,3 +9,5 @@
 >8. [[Pojedynek Achillesa z Hektorem]]
 >9. [[Czy można dojść do porozumienia z wrogiem]]
 >10. [[Mit o rodzie Labdakidów]]
+>11. [[Charakterystyka i ocena postaw - Antygona i Ismena]]
+>12. [[Spór Antygony z Kreonem]]
