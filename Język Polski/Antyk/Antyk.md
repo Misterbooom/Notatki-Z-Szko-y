@@ -8,3 +8,4 @@
 >7. [[Mitologiczne i historyczne przyczyny wojny trojańskiej]]
 >8. [[Pojedynek Achillesa z Hektorem]]
 >9. [[Czy można dojść do porozumienia z wrogiem]]
+>10. [[Mit o rodzie Labdakidów]]
