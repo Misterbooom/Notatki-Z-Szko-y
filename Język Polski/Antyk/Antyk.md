@@ -5,3 +5,6 @@
 >4. [[Mit o Prometeuszu i jego kulturowe znaczenie]]
 >5. [[Mit o Syzyfie oraz Orfeuszu i Eurydyce.]]
 >6. [[Miejsca wspólne w kulturze europejskiej]]
+>7. [[Mitologiczne i historyczne przyczyny wojny trojańskiej]]
+>8. [[Pojedynek Achillesa z Hektorem]]
+>9. [[Czy można dojść do porozumienia z wrogiem]]
