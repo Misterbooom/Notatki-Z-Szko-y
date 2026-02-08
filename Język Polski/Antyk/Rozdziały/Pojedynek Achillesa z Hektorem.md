@@ -50,3 +50,23 @@ Pojedynek to starcie dwóch różnych osobowości i systemów wartości.
 * **Nierówność szans:** Los Hektora był przesądzony przez wolę Zeusa jeszcze przed rozpoczęciem fizycznej walki.
 * **Tragizm Hektora:** Mimo szlachetnej postawy i odwagi, musiał zginąć, ponieważ opuścili go bogowie (Apollo), a Atena podstępnie go zwiodła.
 * **Ewolucja Achillesa:** W tej scenie widzimy go jako zaślepionego gniewem mściciela (dopiero później, podczas spotkania z Priamem, odzyska ludzkie odruchy).
+
+---
+## Przebieg pojedynku Achillesa z Hektorem
+
+### 1. Pierwsze starcie
+Achilles jako pierwszy rzucił włócznią w Hektora, jednak ten zdołał zrobić unik i ostrze wbiło się w ziemię.
+* **Interwencja Ateny:** Bogini, niewidoczna dla Hektora, wyciągnęła włócznię i oddała ją z powrotem Achillesowi.
+
+### 2. Kontratak Hektora
+Hektor rzucił swoją włócznią, celnie trafiając w tarczę Achillesa.
+* Broń odbiła się jednak od boskiej tarczy (wykutej przez Hefajstosa) i nie wyrządziła herosowi żadnej krzywdy.
+
+### 3. Zdrada i rozpoznanie losu
+Hektor, nie mając już włóczni, głośno zawołał swojego brata **Deifoba**, by ten podał mu nową broń.
+* Gdy się odwrócił, nikogo nie zobaczył. Zrozumiał wtedy, że to **Atena** go zwiodła, przybierając postać brata, i że bogowie wydali na niego wyrok śmierci.
+
+### 4. Śmierć Hektora
+Bohaterowie ruszyli na siebie – Hektor dobył miecza, a Achilles zaatakował włócznią.
+* Achilles znał słabe punkty swojej dawnej zbroi (którą po zabiciu Patroklosa nosił teraz Hektor).
+* Wypatrzył nieosłonięte miejsce przy obojczyku i ugodził Hektora **w gardło (szyję)**, zadając mu śmiertelny cios.
