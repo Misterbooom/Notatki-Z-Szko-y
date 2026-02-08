@@ -14,3 +14,4 @@
 >13. [[Ocena postawy Kreona]]
 >14. [[Tragizm w Antygonie]]
 >15. [[Czym dla bohaterów Antygony jest godność]]
+>16. [[Antygon jako wzorzec tragedii antycznej]]
