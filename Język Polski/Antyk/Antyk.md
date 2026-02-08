@@ -13,3 +13,4 @@
 >12. [[Spór Antygony z Kreonem]]
 >13. [[Ocena postawy Kreona]]
 >14. [[Tragizm w Antygonie]]
+>15. [[Czym dla bohaterów Antygony jest godność]]
