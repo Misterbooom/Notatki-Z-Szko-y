@@ -1,19 +1,20 @@
-# Pozycjonowanie w CSS
+# Pozycjonowanie w CSS (ciemny styl z wyjaśnieniami)
 
-
----
-
-## 1. Wartości właściwości `position`
+Pozycjonowanie w CSS pozwala kontrolować położenie elementów na stronie oraz sposób, w jaki reagują na przewijanie i inne elementy.
 
 ---
 
-### 2.1 `static`
+# 1. Właściwość `position`
 
-**Wartość domyślna.**
+Określa sposób pozycjonowania elementu.  
+Dostępne wartości: `static`, `relative`, `absolute`, `fixed`, `sticky`.
 
-- Element znajduje się w normalnym przepływie dokumentu.
-- Właściwości `top`, `right`, `bottom`, `left` **nie działają**.
-- `z-index` nie ma zastosowania.
+---
+
+## 1.1 `static`
+
+**Opis:** Domyślne położenie elementu w normalnym przepływie dokumentu.  
+Nie reaguje na `top`, `left`, `right`, `bottom` ani `z-index`.
 
 ```css
 .box {
@@ -21,17 +22,25 @@
 }
 ```
 
-Charakterystyka:
-- Elementy ustawiają się jeden pod drugim (blokowe) lub obok siebie (inline).
-- Brak możliwości ręcznego przesunięcia.
+### Przykład HTML
+
+```html
+<div class="box">Box 1</div>
+<div class="box">Box 2</div>
+```
+
+<div style="margin:10px 0; background:#1e1e1e; padding:15px; border-radius:12px;">
+  <div style="background:#2d2d2d; color:#fff; padding:10px; margin-bottom:5px; border-radius:8px;">Box 1</div>
+  <div style="background:#3a3a3a; color:#fff; padding:10px; border-radius:8px;">Box 2</div>
+</div>
+
+**Wyjaśnienie:** Elementy ustawiają się jeden pod drugim zgodnie z naturalnym przepływem strony.
 
 ---
 
-### 2.2 `relative`
+## 1.2 `relative`
 
-- Element pozostaje w normalnym przepływie dokumentu.
-- Można go przesunąć względem jego **pierwotnej pozycji**.
-- Przesunięcie nie wpływa na inne elementy (zostaje „puste miejsce”).
+**Opis:** Element pozostaje w przepływie, ale można go przesunąć względem jego pierwotnej pozycji.
 
 ```css
 .box {
@@ -41,21 +50,25 @@ Charakterystyka:
 }
 ```
 
-Działanie:
-- `top: 20px` → przesunięcie w dół o 20px.
-- `left: 30px` → przesunięcie w prawo o 30px.
+### Przykład HTML
 
-Najczęściej używane jako punkt odniesienia dla elementów `absolute`.
+```html
+<div class="box">Relative</div>
+```
+
+<div style="margin:10px 0; background:#1e1e1e; padding:20px; border-radius:12px;">
+  <div style="position:relative; top:20px; left:30px; background:#4caf50; color:white; padding:10px; width:120px; border-radius:8px;">
+    Relative
+  </div>
+</div>
+
+**Wyjaśnienie:** Miejsce pierwotne zostaje zachowane – inne elementy nie przesuwają się.
 
 ---
 
-### 2.3 `absolute`
+## 1.3 `absolute`
 
-- Element zostaje **wyjęty z normalnego przepływu dokumentu**.
-- Nie zajmuje miejsca w układzie.
-- Pozycjonowany względem:
-  - najbliższego przodka z `position: relative | absolute | fixed | sticky`,
-  - jeśli brak – względem całej strony (viewportu).
+**Opis:** Element wyjęty z przepływu, pozycjonowany względem najbliższego rodzica z `position` innym niż `static`.
 
 ```css
 .container {
@@ -64,43 +77,60 @@ Najczęściej używane jako punkt odniesienia dla elementów `absolute`.
 
 .box {
   position: absolute;
-  top: 0;
-  right: 0;
+  top: 10px;
+  right: 10px;
 }
 ```
 
-Cechy:
-- Można dokładnie określić położenie.
-- Często używany do nakładek, ikon, tooltipów.
+### Przykład HTML
+
+```html
+<div class="container">
+  <div class="box">Absolute</div>
+</div>
+```
+
+<div style="margin:10px 0; position:relative; height:120px; background:#1e1e1e; border-radius:12px;">
+  <div style="position:absolute; top:10px; right:10px; background:#ff9800; color:#000; padding:8px; border-radius:8px;">
+    Absolute
+  </div>
+</div>
+
+**Wyjaśnienie:** Element nie zajmuje miejsca w układzie. Można go ustawić w dowolnym miejscu względem rodzica.
 
 ---
 
-### 2.4 `fixed`
+## 1.4 `fixed`
 
-- Element wyjęty z normalnego przepływu.
-- Pozycjonowany względem **okna przeglądarki (viewport)**.
-- Nie przesuwa się podczas scrollowania.
+**Opis:** Element wyjęty z przepływu, pozycjonowany względem okna przeglądarki. Nie przesuwa się przy scrollowaniu.
 
 ```css
-.menu {
+.box {
   position: fixed;
-  top: 0;
-  left: 0;
+  bottom: 20px;
+  right: 20px;
 }
 ```
 
-Zastosowanie:
-- Stałe menu,
-- przycisk „Powrót do góry”,
-- paski informacyjne.
+### Przykład HTML
+
+```html
+<div class="box">Fixed</div>
+```
+
+<div style="margin:10px 0;">
+  <div style="position:fixed; bottom:20px; right:20px; background:#000; color:#fff; padding:10px; border-radius:50px; box-shadow:0 0 10px rgba(0,0,0,0.6);">
+    Fixed
+  </div>
+</div>
+
+**Wyjaśnienie:** Element pozostaje widoczny w tym samym miejscu nawet podczas przewijania strony.
 
 ---
 
-### 2.5 `sticky`
+## 1.5 `sticky`
 
-- Łączy cechy `relative` i `fixed`.
-- Działa jak `relative`, dopóki nie osiągnie określonej pozycji podczas scrollowania.
-- Po przekroczeniu progu „przykleja się” do wskazanej krawędzi.
+**Opis:** Łączy cechy `relative` i `fixed`. Działa jak `relative` dopóki nie osiągnie progu (`top`, `left`), wtedy „przykleja się”.
 
 ```css
 .header {
@@ -109,56 +139,26 @@ Zastosowanie:
 }
 ```
 
-Wymaga:
-- ustawionej wartości `top`, `bottom`, `left` lub `right`,
-- odpowiedniego kontekstu przewijania.
+### Przykład HTML
 
-Zastosowanie:
-- Przyklejone nagłówki tabel,
-- menu sekcji.
-
----
-
-## 2. Właściwości `top`, `right`, `bottom`, `left`
-
-Służą do określania odległości elementu od krawędzi.
-
-Działają tylko dla:
-- `relative`
-- `absolute`
-- `fixed`
-- `sticky`
-
-Nie działają dla `static`.
-
-Przykład:
-
-```css
-.box {
-  position: absolute;
-  top: 10px;
-  left: 20px;
-}
+```html
+<div class="header">Sticky header</div>
 ```
 
-Interpretacja:
-- `top: 10px` → 10px od górnej krawędzi odniesienia,
-- `left: 20px` → 20px od lewej krawędzi odniesienia.
+<div style="margin:10px 0; background:#1e1e1e; border-radius:12px; padding:10px;">
+  <div style="position:sticky; top:0; background:#6200ea; color:#fff; padding:8px; border-radius:8px;">
+    Sticky header
+  </div>
+  <div style="height:60px;"></div>
+</div>
 
-Można używać:
-- px
-- %
-- em
-- rem
-- vh / vw
+**Wyjaśnienie:** Element przewija się razem ze stroną, ale zatrzymuje się przy określonym progu.
 
 ---
 
-## 3. Właściwość `z-index`
+# 2. `z-index`
 
-**`z-index` określa kolejność nakładania się elementów (oś Z).**
-
-Działa tylko dla elementów, które mają `position` inne niż `static`.
+**Opis:** Określa kolejność nakładania elementów w osi Z. Działa tylko dla elementów z `position` innym niż `static`.
 
 ```css
 .box1 {
@@ -172,57 +172,28 @@ Działa tylko dla elementów, które mają `position` inne niż `static`.
 }
 ```
 
-Zasady:
-- Większa wartość → element wyżej.
-- Mniejsza wartość → element niżej.
-- Domyślna wartość: `auto`.
+### Przykład HTML
 
-Uwaga:
-`z-index` działa w obrębie tego samego kontekstu układania (stacking context).
+```html
+<div class="box1"></div>
+<div class="box2"></div>
+```
 
----
+<div style="margin:20px 0; position:relative; height:120px; background:#1e1e1e; border-radius:12px;">
+  <div style="position:absolute; width:80px; height:80px; background:#e91e63; top:20px; left:20px; z-index:1; border-radius:8px;"></div>
+  <div style="position:absolute; width:80px; height:80px; background:#03a9f4; top:40px; left:40px; z-index:2; border-radius:8px;"></div>
+</div>
 
-## 4. Różnice między wartościami
-
-| Wartość    | W normalnym przepływie | Względem czego pozycjonowany | Reaguje na top/left | Scroll |
-|------------|------------------------|------------------------------|---------------------|--------|
-| static     | Tak                    | —                            | Nie                 | Tak    |
-| relative   | Tak                    | Własna pozycja               | Tak                 | Tak    |
-| absolute   | Nie                    | Najbliższy przodek z position | Tak                | Tak    |
-| fixed      | Nie                    | Viewport                     | Tak                 | Nie    |
-| sticky     | Tak (częściowo)        | Rodzic + viewport            | Tak                 | Przykleja się |
+**Wyjaśnienie:** Element z wyższym `z-index` będzie wyświetlany nad elementem z niższym.
 
 ---
 
-## 5. Najczęstsze zastosowania w praktyce
+# 3. Podsumowanie
 
-**relative**
-- Punkt odniesienia dla elementów `absolute`
-- Delikatne przesunięcia elementów
+- `static` – brak kontroli położenia.  
+- `relative` – przesunięcie względem własnej pozycji, miejsce zachowane.  
+- `absolute` – pełna kontrola, poza przepływem.  
+- `fixed` – stałe względem okna, nie przewija się.  
+- `sticky` – przykleja się przy scrollu po osiągnięciu progu.  
 
-**absolute**
-- Tooltipy
-- Ikony w polu input
-- Nakładki
-
-**fixed**
-- Stałe menu
-- Floating button
-- Pasek cookies
-
-**sticky**
-- Przyklejony nagłówek
-- Menu sekcji
-- Spis treści
-
----
-
-## 6. Podsumowanie
-
-- `static` – brak kontroli położenia.
-- `relative` – przesunięcie względem siebie.
-- `absolute` – pełna kontrola, poza przepływem.
-- `fixed` – stałe względem okna.
-- `sticky` – dynamiczne przyklejanie przy scrollu.
-
-Pozycjonowanie jest kluczowe do budowania układów, nakładek i interaktywnych elementów interfejsu.
+Ciemny styl ułatwia czytelność i sprawia, że przykłady są wyraźne wizualnie.

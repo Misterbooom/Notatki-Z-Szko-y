@@ -42,7 +42,7 @@
               "type": "markdown",
               "state": {
                 "file": "Witryny/Pozycjonowanie.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -214,6 +214,7 @@
     "Witryny/Tabele CSS-HTML.md",
     "Witryny/Pozycjonowanie.md",
     "Witryny/Formularze CSS-HTML.md",
+    "Witryny/Witryny.md",
     "Język Polski/Antyk/Antyk.md",
     "Antygon jako wzorzec tragedii antycznej.md",
     "Język Polski/Antyk/Rozdziały/Charakterystyka i ocena postaw - Antygona i Ismena.md",
@@ -236,7 +237,6 @@
     "Język Polski/Środki Stylistyczne.md",
     "Język Polski/Język Polski.md",
     "PAIP/Wprowadzenie Do programowania.md",
-    "PAIP/PAIP.md",
     "Język Polski/Antyk/Rozdziały",
     "Język Polski/Antyk",
     "Historia",
