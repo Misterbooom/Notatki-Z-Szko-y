@@ -1,4 +1,4 @@
-# Pozycjonowanie w CSS (ciemny styl z wyjaśnieniami)
+# Pozycjonowanie w CSS
 
 Pozycjonowanie w CSS pozwala kontrolować położenie elementów na stronie oraz sposób, w jaki reagują na przewijanie i inne elementy.
 
